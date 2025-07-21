@@ -1,0 +1,3293 @@
+{
+  "framework_version": "3.0",
+  "timestamp": "2025-07-14T16:17:47.577620",
+  "summary": {
+    "provider_stats": {
+      "gemini": {
+        "avg_time": 1.3548890113830567,
+        "avg_wall_time": 1.3548884073893228,
+        "avg_improvement": 0.8067544533333334,
+        "avg_accuracy_error": 2.7186817848158626,
+        "avg_efficiency": 0.6999997096111236,
+        "total_retries": 0,
+        "avg_cost": 0.0009648000000000001,
+        "total_cost": 0.014472000000000004,
+        "avg_quality_score": 0.24666666666666676,
+        "avg_completeness": 0.2,
+        "avg_coherence": 0.62,
+        "avg_hallucination_rate": 0.05333333333333334,
+        "total_violations": 7
+      },
+      "openai": {
+        "avg_time": 1.7870245615641276,
+        "avg_wall_time": 1.7870240052541098,
+        "avg_improvement": 0.8278791999999999,
+        "avg_accuracy_error": 2.952910442797931,
+        "avg_efficiency": 0.6999997507510669,
+        "total_retries": 1,
+        "avg_cost": 0.008868000000000003,
+        "total_cost": 0.13302000000000003,
+        "avg_quality_score": 0.41333333333333333,
+        "avg_completeness": 0.35,
+        "avg_coherence": 0.62,
+        "avg_hallucination_rate": 0.08000000000000002,
+        "total_violations": 12
+      },
+      "claude": {
+        "avg_time": 1.7439225832621257,
+        "avg_wall_time": 1.7439221382141112,
+        "avg_improvement": 0.7723089333333333,
+        "avg_accuracy_error": 2.00459012762859,
+        "avg_efficiency": 0.6999998279441686,
+        "total_retries": 0,
+        "avg_cost": 0.010374,
+        "total_cost": 0.15561,
+        "avg_quality_score": 0.17333333333333337,
+        "avg_completeness": 0.2,
+        "avg_coherence": 0.62,
+        "avg_hallucination_rate": 0.05333333333333334,
+        "total_violations": 5
+      },
+      "mock": {
+        "avg_time": 3.632534058888753,
+        "avg_wall_time": 3.6325331687927247,
+        "avg_improvement": 0.7962666666666667,
+        "avg_accuracy_error": 2.3780394392919106,
+        "avg_efficiency": 0.6999997790173021,
+        "total_retries": 1,
+        "avg_cost": 0.0,
+        "total_cost": 0.0,
+        "avg_quality_score": 0.20000000000000007,
+        "avg_completeness": 0.0,
+        "avg_coherence": 0.6999999999999998,
+        "avg_hallucination_rate": 0.02666666666666667,
+        "total_violations": 8
+      }
+    },
+    "scenario_stats": {
+      "Travel Planning": {
+        "avg_time": 1.750500778357188,
+        "avg_improvement": 0.8188817250000001,
+        "complexity": 0.8,
+        "avg_cost": 0.012697124999999998,
+        "avg_quality_score": 0.2875000000000001,
+        "success_rate": 100.0
+      },
+      "Software Project": {
+        "avg_time": 1.9656016826629639,
+        "avg_improvement": 0.8065481833333332,
+        "complexity": 0.9,
+        "avg_cost": 0.01047525,
+        "avg_quality_score": 0.2541666666666667,
+        "success_rate": 100.0
+      },
+      "Event Organization": {
+        "avg_time": 2.0897481441497803,
+        "avg_improvement": 0.7897517666666668,
+        "complexity": 0.7,
+        "avg_cost": 0.0006915,
+        "avg_quality_score": 0.25000000000000006,
+        "success_rate": 100.0
+      },
+      "Research Study": {
+        "avg_time": 2.5032593806584678,
+        "avg_improvement": 0.796578125,
+        "complexity": 0.85,
+        "avg_cost": 0.0007031250000000001,
+        "avg_quality_score": 0.25000000000000006,
+        "success_rate": 100.0
+      },
+      "Business Launch": {
+        "avg_time": 2.3388527830441794,
+        "avg_improvement": 0.7922517666666665,
+        "complexity": 0.95,
+        "avg_cost": 0.0006915,
+        "avg_quality_score": 0.25000000000000006,
+        "success_rate": 100.0
+      }
+    },
+    "cost_analysis": {
+      "total_cost": 0.30310199999999976,
+      "cost_by_provider": {
+        "gemini": 0.014472000000000004,
+        "openai": 0.13302000000000003,
+        "claude": 0.15561,
+        "mock": 0.0
+      },
+      "avg_cost_per_test": 0.005051699999999996
+    },
+    "quality_analysis": {
+      "avg_custom_score": 0.2583333333333333,
+      "avg_completeness": 0.1875,
+      "avg_coherence": 0.6400000000000002,
+      "avg_hallucination_rate": 0.05333333333333334,
+      "total_violations": 32
+    },
+    "retry_statistics": {
+      "total_retries": 2,
+      "retry_success_rate": 0.0,
+      "avg_retries_per_test": 0.03333333333333333,
+      "retry_by_provider": {
+        "openai": 1,
+        "mock": 1
+      },
+      "retry_by_error_type": {
+        "server_error": 1,
+        "timeout": 1
+      }
+    },
+    "efficiency_metrics": {
+      "provider_efficiency": {
+        "gemini": {
+          "avg_efficiency": 0.6999997096111236,
+          "efficiency_std": 3.858971534770593e-07,
+          "min_efficiency": 0.699998486153713,
+          "max_efficiency": 0.7
+        },
+        "openai": {
+          "avg_efficiency": 0.6999997507510669,
+          "efficiency_std": 2.910569804375624e-07,
+          "min_efficiency": 0.6999989627041767,
+          "max_efficiency": 0.7
+        },
+        "claude": {
+          "avg_efficiency": 0.6999998279441686,
+          "efficiency_std": 1.9864842666535502e-07,
+          "min_efficiency": 0.6999994592750075,
+          "max_efficiency": 0.7
+        },
+        "mock": {
+          "avg_efficiency": 0.6999997790173021,
+          "efficiency_std": 2.4694902999395435e-07,
+          "min_efficiency": 0.699999106462589,
+          "max_efficiency": 0.7
+        }
+      },
+      "scenario_efficiency": {
+        "Travel Planning": {
+          "avg_efficiency": 0.6999996842697263,
+          "efficiency_std": 2.8933975202256916e-07
+        },
+        "Software Project": {
+          "avg_efficiency": 0.6999999276234635,
+          "efficiency_std": 1.6775742799624304e-07
+        },
+        "Event Organization": {
+          "avg_efficiency": 0.6999998163873058,
+          "efficiency_std": 1.8153924803588028e-07
+        },
+        "Research Study": {
+          "avg_efficiency": 0.6999996015380315,
+          "efficiency_std": 4.2815818091640723e-07
+        },
+        "Business Launch": {
+          "avg_efficiency": 0.6999998043360497,
+          "efficiency_std": 1.8674576140739246e-07
+        }
+      },
+      "overall_efficiency": 0.6999997668309155
+    }
+  },
+  "detailed_results": [
+    {
+      "scenario": "Travel Planning",
+      "provider": "gemini",
+      "config": {
+        "iterations": 1,
+        "timeout": 30,
+        "model": "standard"
+      },
+      "success": true,
+      "time_accuracy": 96.27451357580992,
+      "improvement_score": 0.8484439,
+      "framework_time": 1.3155910968780518,
+      "wall_clock_time": 1.3155901432037354,
+      "efficiency": 0.69999949256876,
+      "total_api_time": 0.9209131002426146,
+      "framework_overhead_time": 0.3946779966354371,
+      "iterations": 1,
+      "retry_attempts": 0,
+      "quota_usage": {
+        "requests": 2,
+        "tokens": 3012,
+        "quota_exceeded": false
+      },
+      "quality_metrics": {
+        "bleu_score": 0.0,
+        "rouge_1_f": 0.0,
+        "rouge_2_f": 0.0,
+        "rouge_l_f": 0.0,
+        "custom_score": 0.35000000000000003,
+        "hallucination_rate": 0.0,
+        "constraint_violations": 0,
+        "plan_completeness": 0.5,
+        "logical_coherence": 0.5
+      },
+      "cost_metrics": {
+        "input_tokens": 33,
+        "output_tokens": 424,
+        "total_tokens": 457,
+        "input_cost": 4.9500000000000004e-05,
+        "output_cost": 0.002544,
+        "total_cost": 0.0025935
+      },
+      "error_details": null
+    },
+    {
+      "scenario": "Travel Planning",
+      "provider": "gemini",
+      "config": {
+        "iterations": 2,
+        "timeout": 45,
+        "model": "enhanced"
+      },
+      "success": true,
+      "time_accuracy": 95.371496540933,
+      "improvement_score": 0.8484439,
+      "framework_time": 0.9579818248748779,
+      "wall_clock_time": 0.9579818248748779,
+      "efficiency": 0.7,
+      "total_api_time": 0.6705872774124145,
+      "framework_overhead_time": 0.2873945474624634,
+      "iterations": 2,
+      "retry_attempts": 0,
+      "quota_usage": {
+        "requests": 1,
+        "tokens": 1506,
+        "quota_exceeded": false
+      },
+      "quality_metrics": {
+        "bleu_score": 0.0,
+        "rouge_1_f": 0.0,
+        "rouge_2_f": 0.0,
+        "rouge_l_f": 0.0,
+        "custom_score": 0.35000000000000003,
+        "hallucination_rate": 0.0,
+        "constraint_violations": 0,
+        "plan_completeness": 0.5,
+        "logical_coherence": 0.5
+      },
+      "cost_metrics": {
+        "input_tokens": 33,
+        "output_tokens": 424,
+        "total_tokens": 457,
+        "input_cost": 4.9500000000000004e-05,
+        "output_cost": 0.002544,
+        "total_cost": 0.0025935
+      },
+      "error_details": null
+    },
+    {
+      "scenario": "Travel Planning",
+      "provider": "gemini",
+      "config": {
+        "iterations": 1,
+        "timeout": 60,
+        "model": "premium"
+      },
+      "success": true,
+      "time_accuracy": 96.05075156431339,
+      "improvement_score": 0.8484439,
+      "framework_time": 1.8511302471160889,
+      "wall_clock_time": 1.8511290550231934,
+      "efficiency": 0.6999995492132289,
+      "total_api_time": 1.2957903385162353,
+      "framework_overhead_time": 0.5553399085998536,
+      "iterations": 1,
+      "retry_attempts": 0,
+      "quota_usage": {
+        "requests": 3,
+        "tokens": 4518,
+        "quota_exceeded": false
+      },
+      "quality_metrics": {
+        "bleu_score": 0.0,
+        "rouge_1_f": 0.0,
+        "rouge_2_f": 0.0,
+        "rouge_l_f": 0.0,
+        "custom_score": 0.35000000000000003,
+        "hallucination_rate": 0.0,
+        "constraint_violations": 1,
+        "plan_completeness": 0.5,
+        "logical_coherence": 0.5
+      },
+      "cost_metrics": {
+        "input_tokens": 33,
+        "output_tokens": 424,
+        "total_tokens": 457,
+        "input_cost": 4.9500000000000004e-05,
+        "output_cost": 0.002544,
+        "total_cost": 0.0025935
+      },
+      "error_details": null
+    },
+    {
+      "scenario": "Travel Planning",
+      "provider": "openai",
+      "config": {
+        "iterations": 1,
+        "timeout": 30,
+        "model": "standard"
+      },
+      "success": true,
+      "time_accuracy": 98.4768773451236,
+      "improvement_score": 0.824142,
+      "framework_time": 1.584887981414795,
+      "wall_clock_time": 1.5848870277404785,
+      "efficiency": 0.6999995787891451,
+      "total_api_time": 1.1094209194183349,
+      "framework_overhead_time": 0.47546706199646005,
+      "iterations": 1,
+      "retry_attempts": 0,
+      "quota_usage": {
+        "requests": 1,
+        "tokens": 1506,
+        "quota_exceeded": false
+      },
+      "quality_metrics": {
+        "bleu_score": 0.0,
+        "rouge_1_f": 0.0,
+        "rouge_2_f": 0.0,
+        "rouge_l_f": 0.0,
+        "custom_score": 0.35000000000000003,
+        "hallucination_rate": 0.0,
+        "constraint_violations": 0,
+        "plan_completeness": 0.5,
+        "logical_coherence": 0.5
+      },
+      "cost_metrics": {
+        "input_tokens": 33,
+        "output_tokens": 424,
+        "total_tokens": 457,
+        "input_cost": 0.00099,
+        "output_cost": 0.025439999999999997,
+        "total_cost": 0.02643
+      },
+      "error_details": null
+    },
+    {
+      "scenario": "Travel Planning",
+      "provider": "openai",
+      "config": {
+        "iterations": 2,
+        "timeout": 45,
+        "model": "enhanced"
+      },
+      "success": true,
+      "time_accuracy": 95.98812678372487,
+      "improvement_score": 0.817974,
+      "framework_time": 1.8517630100250244,
+      "wall_clock_time": 1.851761817932129,
+      "efficiency": 0.6999995493672665,
+      "total_api_time": 1.29623327255249,
+      "framework_overhead_time": 0.5555297374725343,
+      "iterations": 2,
+      "retry_attempts": 0,
+      "quota_usage": {
+        "requests": 2,
+        "tokens": 2620,
+        "quota_exceeded": false
+      },
+      "quality_metrics": {
+        "bleu_score": 0.0,
+        "rouge_1_f": 0.0,
+        "rouge_2_f": 0.0,
+        "rouge_l_f": 0.0,
+        "custom_score": 0.25,
+        "hallucination_rate": 0.0,
+        "constraint_violations": 2,
+        "plan_completeness": 0.5,
+        "logical_coherence": 0.5
+      },
+      "cost_metrics": {
+        "input_tokens": 33,
+        "output_tokens": 262,
+        "total_tokens": 295,
+        "input_cost": 0.00099,
+        "output_cost": 0.01572,
+        "total_cost": 0.016710000000000003
+      },
+      "error_details": null
+    },
+    {
+      "scenario": "Travel Planning",
+      "provider": "openai",
+      "config": {
+        "iterations": 1,
+        "timeout": 60,
+        "model": "premium"
+      },
+      "success": true,
+      "time_accuracy": 95.43445509256769,
+      "improvement_score": 0.817974,
+      "framework_time": 2.1395862102508545,
+      "wall_clock_time": 2.1395862102508545,
+      "efficiency": 0.7,
+      "total_api_time": 1.4977103471755981,
+      "framework_overhead_time": 0.6418758630752563,
+      "iterations": 1,
+      "retry_attempts": 0,
+      "quota_usage": {
+        "requests": 3,
+        "tokens": 3734,
+        "quota_exceeded": false
+      },
+      "quality_metrics": {
+        "bleu_score": 0.0,
+        "rouge_1_f": 0.0,
+        "rouge_2_f": 0.0,
+        "rouge_l_f": 0.0,
+        "custom_score": 0.25,
+        "hallucination_rate": 0.0,
+        "constraint_violations": 1,
+        "plan_completeness": 0.5,
+        "logical_coherence": 0.5
+      },
+      "cost_metrics": {
+        "input_tokens": 33,
+        "output_tokens": 262,
+        "total_tokens": 295,
+        "input_cost": 0.00099,
+        "output_cost": 0.01572,
+        "total_cost": 0.016710000000000003
+      },
+      "error_details": null
+    },
+    {
+      "scenario": "Travel Planning",
+      "provider": "claude",
+      "config": {
+        "iterations": 1,
+        "timeout": 30,
+        "model": "standard"
+      },
+      "success": true,
+      "time_accuracy": 99.68982046273749,
+      "improvement_score": 0.810623,
+      "framework_time": 1.7119669914245605,
+      "wall_clock_time": 1.7119669914245605,
+      "efficiency": 0.7,
+      "total_api_time": 1.1983768939971924,
+      "framework_overhead_time": 0.5135900974273682,
+      "iterations": 1,
+      "retry_attempts": 0,
+      "quota_usage": {
+        "requests": 1,
+        "tokens": 1506,
+        "quota_exceeded": false
+      },
+      "quality_metrics": {
+        "bleu_score": 0.0,
+        "rouge_1_f": 0.0,
+        "rouge_2_f": 0.0,
+        "rouge_l_f": 0.0,
+        "custom_score": 0.35000000000000003,
+        "hallucination_rate": 0.0,
+        "constraint_violations": 0,
+        "plan_completeness": 0.5,
+        "logical_coherence": 0.5
+      },
+      "cost_metrics": {
+        "input_tokens": 33,
+        "output_tokens": 424,
+        "total_tokens": 457,
+        "input_cost": 0.000495,
+        "output_cost": 0.031799999999999995,
+        "total_cost": 0.032295
+      },
+      "error_details": null
+    },
+    {
+      "scenario": "Travel Planning",
+      "provider": "claude",
+      "config": {
+        "iterations": 2,
+        "timeout": 45,
+        "model": "enhanced"
+      },
+      "success": true,
+      "time_accuracy": 98.3884893825619,
+      "improvement_score": 0.810623,
+      "framework_time": 2.1966278553009033,
+      "wall_clock_time": 2.196627140045166,
+      "efficiency": 0.6999997720692583,
+      "total_api_time": 1.537638998031616,
+      "framework_overhead_time": 0.6589888572692872,
+      "iterations": 2,
+      "retry_attempts": 0,
+      "quota_usage": {
+        "requests": 3,
+        "tokens": 4126,
+        "quota_exceeded": false
+      },
+      "quality_metrics": {
+        "bleu_score": 0.0,
+        "rouge_1_f": 0.0,
+        "rouge_2_f": 0.0,
+        "rouge_l_f": 0.0,
+        "custom_score": 0.35000000000000003,
+        "hallucination_rate": 0.0,
+        "constraint_violations": 0,
+        "plan_completeness": 0.5,
+        "logical_coherence": 0.5
+      },
+      "cost_metrics": {
+        "input_tokens": 33,
+        "output_tokens": 424,
+        "total_tokens": 457,
+        "input_cost": 0.000495,
+        "output_cost": 0.031799999999999995,
+        "total_cost": 0.032295
+      },
+      "error_details": null
+    },
+    {
+      "scenario": "Travel Planning",
+      "provider": "claude",
+      "config": {
+        "iterations": 1,
+        "timeout": 60,
+        "model": "premium"
+      },
+      "success": true,
+      "time_accuracy": 96.836472724877,
+      "improvement_score": 0.805913,
+      "framework_time": 1.0516140460968018,
+      "wall_clock_time": 1.0516140460968018,
+      "efficiency": 0.7,
+      "total_api_time": 0.7361298322677612,
+      "framework_overhead_time": 0.31548421382904057,
+      "iterations": 1,
+      "retry_attempts": 0,
+      "quota_usage": {
+        "requests": 2,
+        "tokens": 2620,
+        "quota_exceeded": false
+      },
+      "quality_metrics": {
+        "bleu_score": 0.0,
+        "rouge_1_f": 0.0,
+        "rouge_2_f": 0.0,
+        "rouge_l_f": 0.0,
+        "custom_score": 0.25,
+        "hallucination_rate": 0.0,
+        "constraint_violations": 0,
+        "plan_completeness": 0.5,
+        "logical_coherence": 0.5
+      },
+      "cost_metrics": {
+        "input_tokens": 33,
+        "output_tokens": 262,
+        "total_tokens": 295,
+        "input_cost": 0.000495,
+        "output_cost": 0.01965,
+        "total_cost": 0.020145
+      },
+      "error_details": null
+    },
+    {
+      "scenario": "Travel Planning",
+      "provider": "mock",
+      "config": {
+        "iterations": 1,
+        "timeout": 30,
+        "model": "standard"
+      },
+      "success": true,
+      "time_accuracy": 98.73118954420767,
+      "improvement_score": 0.798,
+      "framework_time": 1.49422287940979,
+      "wall_clock_time": 1.4942209720611572,
+      "efficiency": 0.699999106462589,
+      "total_api_time": 1.04595468044281,
+      "framework_overhead_time": 0.4482681989669801,
+      "iterations": 1,
+      "retry_attempts": 0,
+      "quota_usage": {
+        "requests": 1,
+        "tokens": 245,
+        "quota_exceeded": false
+      },
+      "quality_metrics": {
+        "bleu_score": 0.0,
+        "rouge_1_f": 0.0,
+        "rouge_2_f": 0.0,
+        "rouge_l_f": 0.0,
+        "custom_score": 0.2,
+        "hallucination_rate": 0.0,
+        "constraint_violations": 0,
+        "plan_completeness": 0.0,
+        "logical_coherence": 0.7
+      },
+      "cost_metrics": {
+        "input_tokens": 42,
+        "output_tokens": 19,
+        "total_tokens": 61,
+        "input_cost": 0.0,
+        "output_cost": 0.0,
+        "total_cost": 0.0
+      },
+      "error_details": null
+    },
+    {
+      "scenario": "Travel Planning",
+      "provider": "mock",
+      "config": {
+        "iterations": 2,
+        "timeout": 45,
+        "model": "enhanced"
+      },
+      "success": true,
+      "time_accuracy": 98.21970041438188,
+      "improvement_score": 0.798,
+      "framework_time": 3.659237861633301,
+      "wall_clock_time": 3.6592371463775635,
+      "efficiency": 0.6999998631739627,
+      "total_api_time": 2.5614660024642943,
+      "framework_overhead_time": 1.0977718591690064,
+      "iterations": 2,
+      "retry_attempts": 0,
+      "quota_usage": {
+        "requests": 3,
+        "tokens": 735,
+        "quota_exceeded": false
+      },
+      "quality_metrics": {
+        "bleu_score": 0.0,
+        "rouge_1_f": 0.0,
+        "rouge_2_f": 0.0,
+        "rouge_l_f": 0.0,
+        "custom_score": 0.2,
+        "hallucination_rate": 0.0,
+        "constraint_violations": 0,
+        "plan_completeness": 0.0,
+        "logical_coherence": 0.7
+      },
+      "cost_metrics": {
+        "input_tokens": 42,
+        "output_tokens": 19,
+        "total_tokens": 61,
+        "input_cost": 0.0,
+        "output_cost": 0.0,
+        "total_cost": 0.0
+      },
+      "error_details": null
+    },
+    {
+      "scenario": "Travel Planning",
+      "provider": "mock",
+      "config": {
+        "iterations": 1,
+        "timeout": 60,
+        "model": "premium"
+      },
+      "success": true,
+      "time_accuracy": 96.84276352328308,
+      "improvement_score": 0.798,
+      "framework_time": 1.191399335861206,
+      "wall_clock_time": 1.1913981437683105,
+      "efficiency": 0.6999992995925028,
+      "total_api_time": 0.8339787006378173,
+      "framework_overhead_time": 0.35742063522338874,
+      "iterations": 1,
+      "retry_attempts": 0,
+      "quota_usage": {
+        "requests": 2,
+        "tokens": 490,
+        "quota_exceeded": false
+      },
+      "quality_metrics": {
+        "bleu_score": 0.0,
+        "rouge_1_f": 0.0,
+        "rouge_2_f": 0.0,
+        "rouge_l_f": 0.0,
+        "custom_score": 0.2,
+        "hallucination_rate": 0.0,
+        "constraint_violations": 0,
+        "plan_completeness": 0.0,
+        "logical_coherence": 0.7
+      },
+      "cost_metrics": {
+        "input_tokens": 42,
+        "output_tokens": 19,
+        "total_tokens": 61,
+        "input_cost": 0.0,
+        "output_cost": 0.0,
+        "total_cost": 0.0
+      },
+      "error_details": null
+    },
+    {
+      "scenario": "Software Project",
+      "provider": "gemini",
+      "config": {
+        "iterations": 1,
+        "timeout": 30,
+        "model": "standard"
+      },
+      "success": true,
+      "time_accuracy": 97.80665768783919,
+      "improvement_score": 0.8380298,
+      "framework_time": 1.2416861057281494,
+      "wall_clock_time": 1.2416861057281494,
+      "efficiency": 0.7,
+      "total_api_time": 0.8691802740097045,
+      "framework_overhead_time": 0.37250583171844487,
+      "iterations": 1,
+      "retry_attempts": 0,
+      "quota_usage": {
+        "requests": 4,
+        "tokens": 5639,
+        "quota_exceeded": false
+      },
+      "quality_metrics": {
+        "bleu_score": 0.0,
+        "rouge_1_f": 0.0,
+        "rouge_2_f": 0.0,
+        "rouge_l_f": 0.0,
+        "custom_score": 0.25,
+        "hallucination_rate": 0.0,
+        "constraint_violations": 1,
+        "plan_completeness": 0.5,
+        "logical_coherence": 0.5
+      },
+      "cost_metrics": {
+        "input_tokens": 30,
+        "output_tokens": 262,
+        "total_tokens": 292,
+        "input_cost": 4.4999999999999996e-05,
+        "output_cost": 0.001572,
+        "total_cost": 0.001617
+      },
+      "error_details": null
+    },
+    {
+      "scenario": "Software Project",
+      "provider": "gemini",
+      "config": {
+        "iterations": 2,
+        "timeout": 45,
+        "model": "enhanced"
+      },
+      "success": true,
+      "time_accuracy": 98.0753833354634,
+      "improvement_score": 0.8380298,
+      "framework_time": 1.5383367538452148,
+      "wall_clock_time": 1.5383355617523193,
+      "efficiency": 0.6999994575537346,
+      "total_api_time": 1.0768348932266234,
+      "framework_overhead_time": 0.46150186061859144,
+      "iterations": 2,
+      "retry_attempts": 0,
+      "quota_usage": {
+        "requests": 6,
+        "tokens": 8273,
+        "quota_exceeded": false
+      },
+      "quality_metrics": {
+        "bleu_score": 0.0,
+        "rouge_1_f": 0.0,
+        "rouge_2_f": 0.0,
+        "rouge_l_f": 0.0,
+        "custom_score": 0.25,
+        "hallucination_rate": 0.0,
+        "constraint_violations": 0,
+        "plan_completeness": 0.5,
+        "logical_coherence": 0.5
+      },
+      "cost_metrics": {
+        "input_tokens": 30,
+        "output_tokens": 262,
+        "total_tokens": 292,
+        "input_cost": 4.4999999999999996e-05,
+        "output_cost": 0.001572,
+        "total_cost": 0.001617
+      },
+      "error_details": null
+    },
+    {
+      "scenario": "Software Project",
+      "provider": "gemini",
+      "config": {
+        "iterations": 1,
+        "timeout": 60,
+        "model": "premium"
+      },
+      "success": true,
+      "time_accuracy": 99.11434444891613,
+      "improvement_score": 0.8174466,
+      "framework_time": 0.8520200252532959,
+      "wall_clock_time": 0.8520200252532959,
+      "efficiency": 0.7,
+      "total_api_time": 0.5964140176773071,
+      "framework_overhead_time": 0.25560600757598884,
+      "iterations": 1,
+      "retry_attempts": 0,
+      "quota_usage": {
+        "requests": 5,
+        "tokens": 7152,
+        "quota_exceeded": false
+      },
+      "quality_metrics": {
+        "bleu_score": 0.0,
+        "rouge_1_f": 0.0,
+        "rouge_2_f": 0.0,
+        "rouge_l_f": 0.0,
+        "custom_score": 0.35000000000000003,
+        "hallucination_rate": 0.4,
+        "constraint_violations": 0,
+        "plan_completeness": 0.5,
+        "logical_coherence": 0.5
+      },
+      "cost_metrics": {
+        "input_tokens": 30,
+        "output_tokens": 424,
+        "total_tokens": 454,
+        "input_cost": 4.4999999999999996e-05,
+        "output_cost": 0.002544,
+        "total_cost": 0.0025889999999999997
+      },
+      "error_details": null
+    },
+    {
+      "scenario": "Software Project",
+      "provider": "openai",
+      "config": {
+        "iterations": 1,
+        "timeout": 30,
+        "model": "standard"
+      },
+      "success": true,
+      "time_accuracy": 95.90571433558983,
+      "improvement_score": 0.787028,
+      "framework_time": 2.2813050746917725,
+      "wall_clock_time": 2.2813050746917725,
+      "efficiency": 0.7,
+      "total_api_time": 1.5969135522842406,
+      "framework_overhead_time": 0.6843915224075319,
+      "iterations": 1,
+      "retry_attempts": 0,
+      "quota_usage": {
+        "requests": 5,
+        "tokens": 5976,
+        "quota_exceeded": false
+      },
+      "quality_metrics": {
+        "bleu_score": 0.0,
+        "rouge_1_f": 0.0,
+        "rouge_2_f": 0.0,
+        "rouge_l_f": 0.0,
+        "custom_score": 0.25,
+        "hallucination_rate": 0.4,
+        "constraint_violations": 0,
+        "plan_completeness": 0.5,
+        "logical_coherence": 0.5
+      },
+      "cost_metrics": {
+        "input_tokens": 30,
+        "output_tokens": 262,
+        "total_tokens": 292,
+        "input_cost": 0.0009,
+        "output_cost": 0.01572,
+        "total_cost": 0.016620000000000003
+      },
+      "error_details": null
+    },
+    {
+      "scenario": "Software Project",
+      "provider": "openai",
+      "config": {
+        "iterations": 2,
+        "timeout": 45,
+        "model": "enhanced"
+      },
+      "success": true,
+      "time_accuracy": 97.41870662075199,
+      "improvement_score": 0.825196,
+      "framework_time": 1.9130442142486572,
+      "wall_clock_time": 1.9130442142486572,
+      "efficiency": 0.7,
+      "total_api_time": 1.33913094997406,
+      "framework_overhead_time": 0.5739132642745972,
+      "iterations": 2,
+      "retry_attempts": 0,
+      "quota_usage": {
+        "requests": 6,
+        "tokens": 7489,
+        "quota_exceeded": false
+      },
+      "quality_metrics": {
+        "bleu_score": 0.0,
+        "rouge_1_f": 0.0,
+        "rouge_2_f": 0.0,
+        "rouge_l_f": 0.0,
+        "custom_score": 0.35000000000000003,
+        "hallucination_rate": 0.0,
+        "constraint_violations": 1,
+        "plan_completeness": 0.5,
+        "logical_coherence": 0.5
+      },
+      "cost_metrics": {
+        "input_tokens": 30,
+        "output_tokens": 424,
+        "total_tokens": 454,
+        "input_cost": 0.0009,
+        "output_cost": 0.025439999999999997,
+        "total_cost": 0.02634
+      },
+      "error_details": null
+    },
+    {
+      "scenario": "Software Project",
+      "provider": "openai",
+      "config": {
+        "iterations": 1,
+        "timeout": 60,
+        "model": "premium"
+      },
+      "success": true,
+      "time_accuracy": 98.58566899043866,
+      "improvement_score": 0.819028,
+      "framework_time": 1.1842544078826904,
+      "wall_clock_time": 1.1842544078826904,
+      "efficiency": 0.7,
+      "total_api_time": 0.8289780855178832,
+      "framework_overhead_time": 0.3552763223648072,
+      "iterations": 1,
+      "retry_attempts": 0,
+      "quota_usage": {
+        "requests": 4,
+        "tokens": 4855,
+        "quota_exceeded": false
+      },
+      "quality_metrics": {
+        "bleu_score": 0.0,
+        "rouge_1_f": 0.0,
+        "rouge_2_f": 0.0,
+        "rouge_l_f": 0.0,
+        "custom_score": 0.25,
+        "hallucination_rate": 0.0,
+        "constraint_violations": 1,
+        "plan_completeness": 0.5,
+        "logical_coherence": 0.5
+      },
+      "cost_metrics": {
+        "input_tokens": 30,
+        "output_tokens": 262,
+        "total_tokens": 292,
+        "input_cost": 0.0009,
+        "output_cost": 0.01572,
+        "total_cost": 0.016620000000000003
+      },
+      "error_details": null
+    },
+    {
+      "scenario": "Software Project",
+      "provider": "claude",
+      "config": {
+        "iterations": 1,
+        "timeout": 30,
+        "model": "standard"
+      },
+      "success": true,
+      "time_accuracy": 96.91096644854863,
+      "improvement_score": 0.80694,
+      "framework_time": 1.0520052909851074,
+      "wall_clock_time": 1.0520052909851074,
+      "efficiency": 0.7,
+      "total_api_time": 0.7364037036895752,
+      "framework_overhead_time": 0.3156015872955322,
+      "iterations": 1,
+      "retry_attempts": 0,
+      "quota_usage": {
+        "requests": 4,
+        "tokens": 5247,
+        "quota_exceeded": false
+      },
+      "quality_metrics": {
+        "bleu_score": 0.0,
+        "rouge_1_f": 0.0,
+        "rouge_2_f": 0.0,
+        "rouge_l_f": 0.0,
+        "custom_score": 0.25,
+        "hallucination_rate": 0.0,
+        "constraint_violations": 0,
+        "plan_completeness": 0.5,
+        "logical_coherence": 0.5
+      },
+      "cost_metrics": {
+        "input_tokens": 30,
+        "output_tokens": 262,
+        "total_tokens": 292,
+        "input_cost": 0.00045,
+        "output_cost": 0.01965,
+        "total_cost": 0.0201
+      },
+      "error_details": null
+    },
+    {
+      "scenario": "Software Project",
+      "provider": "claude",
+      "config": {
+        "iterations": 2,
+        "timeout": 45,
+        "model": "enhanced"
+      },
+      "success": true,
+      "time_accuracy": 98.59409656582729,
+      "improvement_score": 0.77494,
+      "framework_time": 2.5591421127319336,
+      "wall_clock_time": 2.559140920639038,
+      "efficiency": 0.699999673927828,
+      "total_api_time": 1.7913986444473264,
+      "framework_overhead_time": 0.7677434682846072,
+      "iterations": 2,
+      "retry_attempts": 0,
+      "quota_usage": {
+        "requests": 6,
+        "tokens": 7489,
+        "quota_exceeded": false
+      },
+      "quality_metrics": {
+        "bleu_score": 0.0,
+        "rouge_1_f": 0.0,
+        "rouge_2_f": 0.0,
+        "rouge_l_f": 0.0,
+        "custom_score": 0.25,
+        "hallucination_rate": 0.4,
+        "constraint_violations": 0,
+        "plan_completeness": 0.5,
+        "logical_coherence": 0.5
+      },
+      "cost_metrics": {
+        "input_tokens": 30,
+        "output_tokens": 262,
+        "total_tokens": 292,
+        "input_cost": 0.00045,
+        "output_cost": 0.01965,
+        "total_cost": 0.0201
+      },
+      "error_details": null
+    },
+    {
+      "scenario": "Software Project",
+      "provider": "claude",
+      "config": {
+        "iterations": 1,
+        "timeout": 60,
+        "model": "premium"
+      },
+      "success": true,
+      "time_accuracy": 97.99185820905304,
+      "improvement_score": 0.80694,
+      "framework_time": 1.8626627922058105,
+      "wall_clock_time": 1.8626627922058105,
+      "efficiency": 0.7,
+      "total_api_time": 1.3038639545440673,
+      "framework_overhead_time": 0.5587988376617432,
+      "iterations": 1,
+      "retry_attempts": 0,
+      "quota_usage": {
+        "requests": 5,
+        "tokens": 6368,
+        "quota_exceeded": false
+      },
+      "quality_metrics": {
+        "bleu_score": 0.0,
+        "rouge_1_f": 0.0,
+        "rouge_2_f": 0.0,
+        "rouge_l_f": 0.0,
+        "custom_score": 0.25,
+        "hallucination_rate": 0.0,
+        "constraint_violations": 0,
+        "plan_completeness": 0.5,
+        "logical_coherence": 0.5
+      },
+      "cost_metrics": {
+        "input_tokens": 30,
+        "output_tokens": 262,
+        "total_tokens": 292,
+        "input_cost": 0.00045,
+        "output_cost": 0.01965,
+        "total_cost": 0.0201
+      },
+      "error_details": null
+    },
+    {
+      "scenario": "Software Project",
+      "provider": "mock",
+      "config": {
+        "iterations": 1,
+        "timeout": 30,
+        "model": "standard"
+      },
+      "success": true,
+      "time_accuracy": 98.64199353092522,
+      "improvement_score": 0.799,
+      "framework_time": 1.5500240325927734,
+      "wall_clock_time": 1.5500240325927734,
+      "efficiency": 0.7,
+      "total_api_time": 1.0850168228149413,
+      "framework_overhead_time": 0.46500720977783216,
+      "iterations": 1,
+      "retry_attempts": 0,
+      "quota_usage": {
+        "requests": 4,
+        "tokens": 987,
+        "quota_exceeded": false
+      },
+      "quality_metrics": {
+        "bleu_score": 0.0,
+        "rouge_1_f": 0.0,
+        "rouge_2_f": 0.0,
+        "rouge_l_f": 0.0,
+        "custom_score": 0.2,
+        "hallucination_rate": 0.0,
+        "constraint_violations": 0,
+        "plan_completeness": 0.0,
+        "logical_coherence": 0.7
+      },
+      "cost_metrics": {
+        "input_tokens": 43,
+        "output_tokens": 19,
+        "total_tokens": 62,
+        "input_cost": 0.0,
+        "output_cost": 0.0,
+        "total_cost": 0.0
+      },
+      "error_details": null
+    },
+    {
+      "scenario": "Software Project",
+      "provider": "mock",
+      "config": {
+        "iterations": 2,
+        "timeout": 45,
+        "model": "enhanced"
+      },
+      "success": true,
+      "time_accuracy": 97.7632319359078,
+      "improvement_score": 0.767,
+      "framework_time": 2.9128501415252686,
+      "wall_clock_time": 2.9128501415252686,
+      "efficiency": 0.7,
+      "total_api_time": 2.0389950990676877,
+      "framework_overhead_time": 0.8738550424575808,
+      "iterations": 2,
+      "retry_attempts": 0,
+      "quota_usage": {
+        "requests": 5,
+        "tokens": 1239,
+        "quota_exceeded": false
+      },
+      "quality_metrics": {
+        "bleu_score": 0.0,
+        "rouge_1_f": 0.0,
+        "rouge_2_f": 0.0,
+        "rouge_l_f": 0.0,
+        "custom_score": 0.2,
+        "hallucination_rate": 0.4,
+        "constraint_violations": 0,
+        "plan_completeness": 0.0,
+        "logical_coherence": 0.7
+      },
+      "cost_metrics": {
+        "input_tokens": 43,
+        "output_tokens": 19,
+        "total_tokens": 62,
+        "input_cost": 0.0,
+        "output_cost": 0.0,
+        "total_cost": 0.0
+      },
+      "error_details": null
+    },
+    {
+      "scenario": "Software Project",
+      "provider": "mock",
+      "config": {
+        "iterations": 1,
+        "timeout": 60,
+        "model": "premium"
+      },
+      "success": true,
+      "time_accuracy": 96.59588808750985,
+      "improvement_score": 0.799,
+      "framework_time": 4.639889240264893,
+      "wall_clock_time": 4.639889240264893,
+      "efficiency": 0.7,
+      "total_api_time": 3.2479224681854246,
+      "framework_overhead_time": 1.391966772079468,
+      "iterations": 1,
+      "retry_attempts": 0,
+      "quota_usage": {
+        "requests": 6,
+        "tokens": 1491,
+        "quota_exceeded": false
+      },
+      "quality_metrics": {
+        "bleu_score": 0.0,
+        "rouge_1_f": 0.0,
+        "rouge_2_f": 0.0,
+        "rouge_l_f": 0.0,
+        "custom_score": 0.2,
+        "hallucination_rate": 0.0,
+        "constraint_violations": 1,
+        "plan_completeness": 0.0,
+        "logical_coherence": 0.7
+      },
+      "cost_metrics": {
+        "input_tokens": 43,
+        "output_tokens": 19,
+        "total_tokens": 62,
+        "input_cost": 0.0,
+        "output_cost": 0.0,
+        "total_cost": 0.0
+      },
+      "error_details": null
+    },
+    {
+      "scenario": "Event Organization",
+      "provider": "gemini",
+      "config": {
+        "iterations": 1,
+        "timeout": 30,
+        "model": "standard"
+      },
+      "success": true,
+      "time_accuracy": 97.6087990699223,
+      "improvement_score": 0.7869424,
+      "framework_time": 1.6520960330963135,
+      "wall_clock_time": 1.6520953178405762,
+      "efficiency": 0.6999996969431521,
+      "total_api_time": 1.1564667224884033,
+      "framework_overhead_time": 0.49562931060791016,
+      "iterations": 1,
+      "retry_attempts": 0,
+      "quota_usage": {
+        "requests": 7,
+        "tokens": 8493,
+        "quota_exceeded": false
+      },
+      "quality_metrics": {
+        "bleu_score": 0.0,
+        "rouge_1_f": 0.0,
+        "rouge_2_f": 0.0,
+        "rouge_l_f": 0.0,
+        "custom_score": 0.2,
+        "hallucination_rate": 0.0,
+        "constraint_violations": 1,
+        "plan_completeness": 0.0,
+        "logical_coherence": 0.7
+      },
+      "cost_metrics": {
+        "input_tokens": 28,
+        "output_tokens": 9,
+        "total_tokens": 37,
+        "input_cost": 4.2000000000000004e-05,
+        "output_cost": 5.4e-05,
+        "total_cost": 9.6e-05
+      },
+      "error_details": null
+    },
+    {
+      "scenario": "Event Organization",
+      "provider": "gemini",
+      "config": {
+        "iterations": 2,
+        "timeout": 45,
+        "model": "enhanced"
+      },
+      "success": true,
+      "time_accuracy": 98.75035704107187,
+      "improvement_score": 0.7869424,
+      "framework_time": 1.1294031143188477,
+      "wall_clock_time": 1.1294031143188477,
+      "efficiency": 0.7,
+      "total_api_time": 0.7905821800231934,
+      "framework_overhead_time": 0.3388209342956543,
+      "iterations": 2,
+      "retry_attempts": 0,
+      "quota_usage": {
+        "requests": 8,
+        "tokens": 8713,
+        "quota_exceeded": false
+      },
+      "quality_metrics": {
+        "bleu_score": 0.0,
+        "rouge_1_f": 0.0,
+        "rouge_2_f": 0.0,
+        "rouge_l_f": 0.0,
+        "custom_score": 0.2,
+        "hallucination_rate": 0.0,
+        "constraint_violations": 0,
+        "plan_completeness": 0.0,
+        "logical_coherence": 0.7
+      },
+      "cost_metrics": {
+        "input_tokens": 28,
+        "output_tokens": 9,
+        "total_tokens": 37,
+        "input_cost": 4.2000000000000004e-05,
+        "output_cost": 5.4e-05,
+        "total_cost": 9.6e-05
+      },
+      "error_details": null
+    },
+    {
+      "scenario": "Event Organization",
+      "provider": "gemini",
+      "config": {
+        "iterations": 1,
+        "timeout": 60,
+        "model": "premium"
+      },
+      "success": true,
+      "time_accuracy": 96.94708237166004,
+      "improvement_score": 0.7869424,
+      "framework_time": 0.8587179183959961,
+      "wall_clock_time": 0.8587179183959961,
+      "efficiency": 0.7,
+      "total_api_time": 0.6011025428771972,
+      "framework_overhead_time": 0.2576153755187989,
+      "iterations": 1,
+      "retry_attempts": 0,
+      "quota_usage": {
+        "requests": 9,
+        "tokens": 8933,
+        "quota_exceeded": false
+      },
+      "quality_metrics": {
+        "bleu_score": 0.0,
+        "rouge_1_f": 0.0,
+        "rouge_2_f": 0.0,
+        "rouge_l_f": 0.0,
+        "custom_score": 0.2,
+        "hallucination_rate": 0.0,
+        "constraint_violations": 1,
+        "plan_completeness": 0.0,
+        "logical_coherence": 0.7
+      },
+      "cost_metrics": {
+        "input_tokens": 28,
+        "output_tokens": 9,
+        "total_tokens": 37,
+        "input_cost": 4.2000000000000004e-05,
+        "output_cost": 5.4e-05,
+        "total_cost": 9.6e-05
+      },
+      "error_details": null
+    },
+    {
+      "scenario": "Event Organization",
+      "provider": "openai",
+      "config": {
+        "iterations": 1,
+        "timeout": 30,
+        "model": "standard"
+      },
+      "success": true,
+      "time_accuracy": 97.4063369569785,
+      "improvement_score": 0.8100999999999999,
+      "framework_time": 2.488499879837036,
+      "wall_clock_time": 2.4884989261627197,
+      "efficiency": 0.6999997317371695,
+      "total_api_time": 1.7419492483139036,
+      "framework_overhead_time": 0.7465506315231325,
+      "iterations": 1,
+      "retry_attempts": 0,
+      "quota_usage": {
+        "requests": 8,
+        "tokens": 7903,
+        "quota_exceeded": false
+      },
+      "quality_metrics": {
+        "bleu_score": 0.0,
+        "rouge_1_f": 0.0,
+        "rouge_2_f": 0.0,
+        "rouge_l_f": 0.0,
+        "custom_score": 0.5,
+        "hallucination_rate": 0.4,
+        "constraint_violations": 0,
+        "plan_completeness": 0.25,
+        "logical_coherence": 0.7
+      },
+      "cost_metrics": {
+        "input_tokens": 28,
+        "output_tokens": 11,
+        "total_tokens": 39,
+        "input_cost": 0.00084,
+        "output_cost": 0.0006599999999999999,
+        "total_cost": 0.0015
+      },
+      "error_details": null
+    },
+    {
+      "scenario": "Event Organization",
+      "provider": "openai",
+      "config": {
+        "iterations": 2,
+        "timeout": 45,
+        "model": "enhanced"
+      },
+      "success": true,
+      "time_accuracy": 96.21783723628636,
+      "improvement_score": 0.8421,
+      "framework_time": 0.8785789012908936,
+      "wall_clock_time": 0.8785789012908936,
+      "efficiency": 0.7,
+      "total_api_time": 0.6150052309036255,
+      "framework_overhead_time": 0.2635736703872681,
+      "iterations": 2,
+      "retry_attempts": 0,
+      "quota_usage": {
+        "requests": 7,
+        "tokens": 7696,
+        "quota_exceeded": false
+      },
+      "quality_metrics": {
+        "bleu_score": 0.0,
+        "rouge_1_f": 0.0,
+        "rouge_2_f": 0.0,
+        "rouge_l_f": 0.0,
+        "custom_score": 0.5,
+        "hallucination_rate": 0.0,
+        "constraint_violations": 2,
+        "plan_completeness": 0.25,
+        "logical_coherence": 0.7
+      },
+      "cost_metrics": {
+        "input_tokens": 28,
+        "output_tokens": 11,
+        "total_tokens": 39,
+        "input_cost": 0.00084,
+        "output_cost": 0.0006599999999999999,
+        "total_cost": 0.0015
+      },
+      "error_details": null
+    },
+    {
+      "scenario": "Event Organization",
+      "provider": "openai",
+      "config": {
+        "iterations": 1,
+        "timeout": 60,
+        "model": "premium"
+      },
+      "success": true,
+      "time_accuracy": 98.92095056478718,
+      "improvement_score": 0.8421,
+      "framework_time": 1.8967251777648926,
+      "wall_clock_time": 1.896723985671997,
+      "efficiency": 0.6999995600495861,
+      "total_api_time": 1.3277067899703978,
+      "framework_overhead_time": 0.5690183877944948,
+      "iterations": 1,
+      "retry_attempts": 0,
+      "quota_usage": {
+        "requests": 9,
+        "tokens": 8110,
+        "quota_exceeded": false
+      },
+      "quality_metrics": {
+        "bleu_score": 0.0,
+        "rouge_1_f": 0.0,
+        "rouge_2_f": 0.0,
+        "rouge_l_f": 0.0,
+        "custom_score": 0.5,
+        "hallucination_rate": 0.0,
+        "constraint_violations": 0,
+        "plan_completeness": 0.25,
+        "logical_coherence": 0.7
+      },
+      "cost_metrics": {
+        "input_tokens": 28,
+        "output_tokens": 11,
+        "total_tokens": 39,
+        "input_cost": 0.00084,
+        "output_cost": 0.0006599999999999999,
+        "total_cost": 0.0015
+      },
+      "error_details": null
+    },
+    {
+      "scenario": "Event Organization",
+      "provider": "claude",
+      "config": {
+        "iterations": 1,
+        "timeout": 30,
+        "model": "standard"
+      },
+      "success": true,
+      "time_accuracy": 96.1755126816598,
+      "improvement_score": 0.722298,
+      "framework_time": 1.2345869541168213,
+      "wall_clock_time": 1.2345860004425049,
+      "efficiency": 0.6999994592750075,
+      "total_api_time": 0.8642102003097534,
+      "framework_overhead_time": 0.3703767538070679,
+      "iterations": 1,
+      "retry_attempts": 0,
+      "quota_usage": {
+        "requests": 7,
+        "tokens": 7711,
+        "quota_exceeded": false
+      },
+      "quality_metrics": {
+        "bleu_score": 0.0,
+        "rouge_1_f": 0.0,
+        "rouge_2_f": 0.0,
+        "rouge_l_f": 0.0,
+        "custom_score": 0.1,
+        "hallucination_rate": 0.4,
+        "constraint_violations": 0,
+        "plan_completeness": 0.0,
+        "logical_coherence": 0.7
+      },
+      "cost_metrics": {
+        "input_tokens": 28,
+        "output_tokens": 10,
+        "total_tokens": 38,
+        "input_cost": 0.00042,
+        "output_cost": 0.00075,
+        "total_cost": 0.00117
+      },
+      "error_details": null
+    },
+    {
+      "scenario": "Event Organization",
+      "provider": "claude",
+      "config": {
+        "iterations": 2,
+        "timeout": 45,
+        "model": "enhanced"
+      },
+      "success": true,
+      "time_accuracy": 95.79233158232083,
+      "improvement_score": 0.754298,
+      "framework_time": 1.016597032546997,
+      "wall_clock_time": 1.016597032546997,
+      "efficiency": 0.7,
+      "total_api_time": 0.7116179227828979,
+      "framework_overhead_time": 0.30497910976409914,
+      "iterations": 2,
+      "retry_attempts": 0,
+      "quota_usage": {
+        "requests": 8,
+        "tokens": 7933,
+        "quota_exceeded": false
+      },
+      "quality_metrics": {
+        "bleu_score": 0.0,
+        "rouge_1_f": 0.0,
+        "rouge_2_f": 0.0,
+        "rouge_l_f": 0.0,
+        "custom_score": 0.1,
+        "hallucination_rate": 0.0,
+        "constraint_violations": 1,
+        "plan_completeness": 0.0,
+        "logical_coherence": 0.7
+      },
+      "cost_metrics": {
+        "input_tokens": 28,
+        "output_tokens": 10,
+        "total_tokens": 38,
+        "input_cost": 0.00042,
+        "output_cost": 0.00075,
+        "total_cost": 0.00117
+      },
+      "error_details": null
+    },
+    {
+      "scenario": "Event Organization",
+      "provider": "claude",
+      "config": {
+        "iterations": 1,
+        "timeout": 60,
+        "model": "premium"
+      },
+      "success": true,
+      "time_accuracy": 95.77903851186699,
+      "improvement_score": 0.754298,
+      "framework_time": 1.3573968410491943,
+      "wall_clock_time": 1.3573968410491943,
+      "efficiency": 0.7,
+      "total_api_time": 0.9501777887344359,
+      "framework_overhead_time": 0.4072190523147584,
+      "iterations": 1,
+      "retry_attempts": 0,
+      "quota_usage": {
+        "requests": 9,
+        "tokens": 8155,
+        "quota_exceeded": false
+      },
+      "quality_metrics": {
+        "bleu_score": 0.0,
+        "rouge_1_f": 0.0,
+        "rouge_2_f": 0.0,
+        "rouge_l_f": 0.0,
+        "custom_score": 0.1,
+        "hallucination_rate": 0.0,
+        "constraint_violations": 2,
+        "plan_completeness": 0.0,
+        "logical_coherence": 0.7
+      },
+      "cost_metrics": {
+        "input_tokens": 28,
+        "output_tokens": 10,
+        "total_tokens": 38,
+        "input_cost": 0.00042,
+        "output_cost": 0.00075,
+        "total_cost": 0.00117
+      },
+      "error_details": null
+    },
+    {
+      "scenario": "Event Organization",
+      "provider": "mock",
+      "config": {
+        "iterations": 1,
+        "timeout": 30,
+        "model": "standard"
+      },
+      "success": true,
+      "time_accuracy": 96.00365645744463,
+      "improvement_score": 0.797,
+      "framework_time": 3.3474950790405273,
+      "wall_clock_time": 3.347493886947632,
+      "efficiency": 0.6999997507195657,
+      "total_api_time": 2.343245720863342,
+      "framework_overhead_time": 1.0042493581771854,
+      "iterations": 1,
+      "retry_attempts": 0,
+      "quota_usage": {
+        "requests": 7,
+        "tokens": 1722,
+        "quota_exceeded": false
+      },
+      "quality_metrics": {
+        "bleu_score": 0.0,
+        "rouge_1_f": 0.0,
+        "rouge_2_f": 0.0,
+        "rouge_l_f": 0.0,
+        "custom_score": 0.2,
+        "hallucination_rate": 0.0,
+        "constraint_violations": 2,
+        "plan_completeness": 0.0,
+        "logical_coherence": 0.7
+      },
+      "cost_metrics": {
+        "input_tokens": 37,
+        "output_tokens": 20,
+        "total_tokens": 57,
+        "input_cost": 0.0,
+        "output_cost": 0.0,
+        "total_cost": 0.0
+      },
+      "error_details": null
+    },
+    {
+      "scenario": "Event Organization",
+      "provider": "mock",
+      "config": {
+        "iterations": 2,
+        "timeout": 45,
+        "model": "enhanced"
+      },
+      "success": true,
+      "time_accuracy": 96.16844353764236,
+      "improvement_score": 0.797,
+      "framework_time": 4.4669108390808105,
+      "wall_clock_time": 4.466909170150757,
+      "efficiency": 0.6999997384655572,
+      "total_api_time": 3.12683641910553,
+      "framework_overhead_time": 1.3400744199752808,
+      "iterations": 2,
+      "retry_attempts": 0,
+      "quota_usage": {
+        "requests": 8,
+        "tokens": 1953,
+        "quota_exceeded": false
+      },
+      "quality_metrics": {
+        "bleu_score": 0.0,
+        "rouge_1_f": 0.0,
+        "rouge_2_f": 0.0,
+        "rouge_l_f": 0.0,
+        "custom_score": 0.2,
+        "hallucination_rate": 0.0,
+        "constraint_violations": 2,
+        "plan_completeness": 0.0,
+        "logical_coherence": 0.7
+      },
+      "cost_metrics": {
+        "input_tokens": 37,
+        "output_tokens": 20,
+        "total_tokens": 57,
+        "input_cost": 0.0,
+        "output_cost": 0.0,
+        "total_cost": 0.0
+      },
+      "error_details": null
+    },
+    {
+      "scenario": "Event Organization",
+      "provider": "mock",
+      "config": {
+        "iterations": 1,
+        "timeout": 60,
+        "model": "premium"
+      },
+      "success": true,
+      "time_accuracy": 96.6003619535959,
+      "improvement_score": 0.797,
+      "framework_time": 4.749969959259033,
+      "wall_clock_time": 4.749969005584717,
+      "efficiency": 0.6999998594576329,
+      "total_api_time": 3.3249783039093015,
+      "framework_overhead_time": 1.4249916553497317,
+      "iterations": 1,
+      "retry_attempts": 0,
+      "quota_usage": {
+        "requests": 9,
+        "tokens": 2184,
+        "quota_exceeded": false
+      },
+      "quality_metrics": {
+        "bleu_score": 0.0,
+        "rouge_1_f": 0.0,
+        "rouge_2_f": 0.0,
+        "rouge_l_f": 0.0,
+        "custom_score": 0.2,
+        "hallucination_rate": 0.0,
+        "constraint_violations": 0,
+        "plan_completeness": 0.0,
+        "logical_coherence": 0.7
+      },
+      "cost_metrics": {
+        "input_tokens": 37,
+        "output_tokens": 20,
+        "total_tokens": 57,
+        "input_cost": 0.0,
+        "output_cost": 0.0,
+        "total_cost": 0.0
+      },
+      "error_details": null
+    },
+    {
+      "scenario": "Research Study",
+      "provider": "gemini",
+      "config": {
+        "iterations": 1,
+        "timeout": 30,
+        "model": "standard"
+      },
+      "success": true,
+      "time_accuracy": 98.56816786923424,
+      "improvement_score": 0.7884415,
+      "framework_time": 2.0008039474487305,
+      "wall_clock_time": 2.000802993774414,
+      "efficiency": 0.6999996663481085,
+      "total_api_time": 1.4005620956420897,
+      "framework_overhead_time": 0.6002418518066408,
+      "iterations": 1,
+      "retry_attempts": 0,
+      "quota_usage": {
+        "requests": 10,
+        "tokens": 9168,
+        "quota_exceeded": false
+      },
+      "quality_metrics": {
+        "bleu_score": 0.0,
+        "rouge_1_f": 0.0,
+        "rouge_2_f": 0.0,
+        "rouge_l_f": 0.0,
+        "custom_score": 0.2,
+        "hallucination_rate": 0.0,
+        "constraint_violations": 0,
+        "plan_completeness": 0.0,
+        "logical_coherence": 0.7
+      },
+      "cost_metrics": {
+        "input_tokens": 29,
+        "output_tokens": 9,
+        "total_tokens": 38,
+        "input_cost": 4.35e-05,
+        "output_cost": 5.4e-05,
+        "total_cost": 9.75e-05
+      },
+      "error_details": null
+    },
+    {
+      "scenario": "Research Study",
+      "provider": "gemini",
+      "config": {
+        "iterations": 2,
+        "timeout": 45,
+        "model": "enhanced"
+      },
+      "success": true,
+      "time_accuracy": 96.85124854769114,
+      "improvement_score": 0.7884415,
+      "framework_time": 0.7133750915527344,
+      "wall_clock_time": 0.7133750915527344,
+      "efficiency": 0.7,
+      "total_api_time": 0.49936256408691404,
+      "framework_overhead_time": 0.21401252746582033,
+      "iterations": 2,
+      "retry_attempts": 0,
+      "quota_usage": {
+        "requests": 11,
+        "tokens": 9403,
+        "quota_exceeded": false
+      },
+      "quality_metrics": {
+        "bleu_score": 0.0,
+        "rouge_1_f": 0.0,
+        "rouge_2_f": 0.0,
+        "rouge_l_f": 0.0,
+        "custom_score": 0.2,
+        "hallucination_rate": 0.0,
+        "constraint_violations": 0,
+        "plan_completeness": 0.0,
+        "logical_coherence": 0.7
+      },
+      "cost_metrics": {
+        "input_tokens": 29,
+        "output_tokens": 9,
+        "total_tokens": 38,
+        "input_cost": 4.35e-05,
+        "output_cost": 5.4e-05,
+        "total_cost": 9.75e-05
+      },
+      "error_details": null
+    },
+    {
+      "scenario": "Research Study",
+      "provider": "gemini",
+      "config": {
+        "iterations": 1,
+        "timeout": 60,
+        "model": "premium"
+      },
+      "success": true,
+      "time_accuracy": 99.1168933577352,
+      "improvement_score": 0.7884415,
+      "framework_time": 0.992199182510376,
+      "wall_clock_time": 0.9921970367431641,
+      "efficiency": 0.699998486153713,
+      "total_api_time": 0.6945379257202148,
+      "framework_overhead_time": 0.2976612567901612,
+      "iterations": 1,
+      "retry_attempts": 0,
+      "quota_usage": {
+        "requests": 12,
+        "tokens": 9638,
+        "quota_exceeded": false
+      },
+      "quality_metrics": {
+        "bleu_score": 0.0,
+        "rouge_1_f": 0.0,
+        "rouge_2_f": 0.0,
+        "rouge_l_f": 0.0,
+        "custom_score": 0.2,
+        "hallucination_rate": 0.0,
+        "constraint_violations": 1,
+        "plan_completeness": 0.0,
+        "logical_coherence": 0.7
+      },
+      "cost_metrics": {
+        "input_tokens": 29,
+        "output_tokens": 9,
+        "total_tokens": 38,
+        "input_cost": 4.35e-05,
+        "output_cost": 5.4e-05,
+        "total_cost": 9.75e-05
+      },
+      "error_details": null
+    },
+    {
+      "scenario": "Research Study",
+      "provider": "openai",
+      "config": {
+        "iterations": 1,
+        "timeout": 30,
+        "model": "standard"
+      },
+      "success": true,
+      "time_accuracy": 98.17575568298915,
+      "improvement_score": 0.843582,
+      "framework_time": 1.933666706085205,
+      "wall_clock_time": 1.933666706085205,
+      "efficiency": 0.7,
+      "total_api_time": 1.3535666942596434,
+      "framework_overhead_time": 0.5801000118255617,
+      "iterations": 1,
+      "retry_attempts": 0,
+      "quota_usage": {
+        "requests": 11,
+        "tokens": 8554,
+        "quota_exceeded": false
+      },
+      "quality_metrics": {
+        "bleu_score": 0.0,
+        "rouge_1_f": 0.0,
+        "rouge_2_f": 0.0,
+        "rouge_l_f": 0.0,
+        "custom_score": 0.5,
+        "hallucination_rate": 0.0,
+        "constraint_violations": 0,
+        "plan_completeness": 0.25,
+        "logical_coherence": 0.7
+      },
+      "cost_metrics": {
+        "input_tokens": 29,
+        "output_tokens": 11,
+        "total_tokens": 40,
+        "input_cost": 0.00087,
+        "output_cost": 0.0006599999999999999,
+        "total_cost": 0.00153
+      },
+      "error_details": null
+    },
+    {
+      "scenario": "Research Study",
+      "provider": "openai",
+      "config": {
+        "iterations": 2,
+        "timeout": 45,
+        "model": "enhanced"
+      },
+      "success": true,
+      "time_accuracy": 95.90868122774525,
+      "improvement_score": 0.843582,
+      "framework_time": 2.943413019180298,
+      "wall_clock_time": 2.9434120655059814,
+      "efficiency": 0.699999773197979,
+      "total_api_time": 2.060388445854187,
+      "framework_overhead_time": 0.8830245733261108,
+      "iterations": 2,
+      "retry_attempts": 1,
+      "quota_usage": {
+        "requests": 12,
+        "tokens": 8776,
+        "quota_exceeded": false
+      },
+      "quality_metrics": {
+        "bleu_score": 0.0,
+        "rouge_1_f": 0.0,
+        "rouge_2_f": 0.0,
+        "rouge_l_f": 0.0,
+        "custom_score": 0.5,
+        "hallucination_rate": 0.0,
+        "constraint_violations": 0,
+        "plan_completeness": 0.25,
+        "logical_coherence": 0.7
+      },
+      "cost_metrics": {
+        "input_tokens": 29,
+        "output_tokens": 11,
+        "total_tokens": 40,
+        "input_cost": 0.00087,
+        "output_cost": 0.0006599999999999999,
+        "total_cost": 0.00153
+      },
+      "error_details": null
+    },
+    {
+      "scenario": "Research Study",
+      "provider": "openai",
+      "config": {
+        "iterations": 1,
+        "timeout": 60,
+        "model": "premium"
+      },
+      "success": true,
+      "time_accuracy": 96.31604107007966,
+      "improvement_score": 0.843582,
+      "framework_time": 0.8044619560241699,
+      "wall_clock_time": 0.8044607639312744,
+      "efficiency": 0.6999989627041767,
+      "total_api_time": 0.563122534751892,
+      "framework_overhead_time": 0.24133942127227792,
+      "iterations": 1,
+      "retry_attempts": 0,
+      "quota_usage": {
+        "requests": 10,
+        "tokens": 8332,
+        "quota_exceeded": false
+      },
+      "quality_metrics": {
+        "bleu_score": 0.0,
+        "rouge_1_f": 0.0,
+        "rouge_2_f": 0.0,
+        "rouge_l_f": 0.0,
+        "custom_score": 0.5,
+        "hallucination_rate": 0.0,
+        "constraint_violations": 1,
+        "plan_completeness": 0.25,
+        "logical_coherence": 0.7
+      },
+      "cost_metrics": {
+        "input_tokens": 29,
+        "output_tokens": 11,
+        "total_tokens": 40,
+        "input_cost": 0.00087,
+        "output_cost": 0.0006599999999999999,
+        "total_cost": 0.00153
+      },
+      "error_details": null
+    },
+    {
+      "scenario": "Research Study",
+      "provider": "claude",
+      "config": {
+        "iterations": 1,
+        "timeout": 30,
+        "model": "standard"
+      },
+      "success": true,
+      "time_accuracy": 98.96781014799015,
+      "improvement_score": 0.7557889999999998,
+      "framework_time": 1.2683899402618408,
+      "wall_clock_time": 1.2683889865875244,
+      "efficiency": 0.6999994736854966,
+      "total_api_time": 0.887872290611267,
+      "framework_overhead_time": 0.3805176496505738,
+      "iterations": 1,
+      "retry_attempts": 0,
+      "quota_usage": {
+        "requests": 10,
+        "tokens": 8392,
+        "quota_exceeded": false
+      },
+      "quality_metrics": {
+        "bleu_score": 0.0,
+        "rouge_1_f": 0.0,
+        "rouge_2_f": 0.0,
+        "rouge_l_f": 0.0,
+        "custom_score": 0.1,
+        "hallucination_rate": 0.0,
+        "constraint_violations": 0,
+        "plan_completeness": 0.0,
+        "logical_coherence": 0.7
+      },
+      "cost_metrics": {
+        "input_tokens": 29,
+        "output_tokens": 10,
+        "total_tokens": 39,
+        "input_cost": 0.000435,
+        "output_cost": 0.00075,
+        "total_cost": 0.001185
+      },
+      "error_details": null
+    },
+    {
+      "scenario": "Research Study",
+      "provider": "claude",
+      "config": {
+        "iterations": 2,
+        "timeout": 45,
+        "model": "enhanced"
+      },
+      "success": true,
+      "time_accuracy": 99.96273367506562,
+      "improvement_score": 0.7557889999999998,
+      "framework_time": 2.290286064147949,
+      "wall_clock_time": 2.290285110473633,
+      "efficiency": 0.6999997085202446,
+      "total_api_time": 1.6031995773315428,
+      "framework_overhead_time": 0.6870864868164064,
+      "iterations": 2,
+      "retry_attempts": 0,
+      "quota_usage": {
+        "requests": 11,
+        "tokens": 8629,
+        "quota_exceeded": false
+      },
+      "quality_metrics": {
+        "bleu_score": 0.0,
+        "rouge_1_f": 0.0,
+        "rouge_2_f": 0.0,
+        "rouge_l_f": 0.0,
+        "custom_score": 0.1,
+        "hallucination_rate": 0.0,
+        "constraint_violations": 0,
+        "plan_completeness": 0.0,
+        "logical_coherence": 0.7
+      },
+      "cost_metrics": {
+        "input_tokens": 29,
+        "output_tokens": 10,
+        "total_tokens": 39,
+        "input_cost": 0.000435,
+        "output_cost": 0.00075,
+        "total_cost": 0.001185
+      },
+      "error_details": null
+    },
+    {
+      "scenario": "Research Study",
+      "provider": "claude",
+      "config": {
+        "iterations": 1,
+        "timeout": 60,
+        "model": "premium"
+      },
+      "success": true,
+      "time_accuracy": 99.71029994452375,
+      "improvement_score": 0.7557889999999998,
+      "framework_time": 2.015368938446045,
+      "wall_clock_time": 2.0153679847717285,
+      "efficiency": 0.6999996687593973,
+      "total_api_time": 1.4107575893402098,
+      "framework_overhead_time": 0.6046113491058351,
+      "iterations": 1,
+      "retry_attempts": 0,
+      "quota_usage": {
+        "requests": 12,
+        "tokens": 8866,
+        "quota_exceeded": false
+      },
+      "quality_metrics": {
+        "bleu_score": 0.0,
+        "rouge_1_f": 0.0,
+        "rouge_2_f": 0.0,
+        "rouge_l_f": 0.0,
+        "custom_score": 0.1,
+        "hallucination_rate": 0.0,
+        "constraint_violations": 0,
+        "plan_completeness": 0.0,
+        "logical_coherence": 0.7
+      },
+      "cost_metrics": {
+        "input_tokens": 29,
+        "output_tokens": 10,
+        "total_tokens": 39,
+        "input_cost": 0.000435,
+        "output_cost": 0.00075,
+        "total_cost": 0.001185
+      },
+      "error_details": null
+    },
+    {
+      "scenario": "Research Study",
+      "provider": "mock",
+      "config": {
+        "iterations": 1,
+        "timeout": 30,
+        "model": "standard"
+      },
+      "success": true,
+      "time_accuracy": 98.77747837444186,
+      "improvement_score": 0.7985,
+      "framework_time": 4.367331027984619,
+      "wall_clock_time": 4.367330074310303,
+      "efficiency": 0.6999998471441672,
+      "total_api_time": 3.057131052017212,
+      "framework_overhead_time": 1.3101999759674072,
+      "iterations": 1,
+      "retry_attempts": 0,
+      "quota_usage": {
+        "requests": 10,
+        "tokens": 2426,
+        "quota_exceeded": false
+      },
+      "quality_metrics": {
+        "bleu_score": 0.0,
+        "rouge_1_f": 0.0,
+        "rouge_2_f": 0.0,
+        "rouge_l_f": 0.0,
+        "custom_score": 0.2,
+        "hallucination_rate": 0.0,
+        "constraint_violations": 1,
+        "plan_completeness": 0.0,
+        "logical_coherence": 0.7
+      },
+      "cost_metrics": {
+        "input_tokens": 41,
+        "output_tokens": 19,
+        "total_tokens": 60,
+        "input_cost": 0.0,
+        "output_cost": 0.0,
+        "total_cost": 0.0
+      },
+      "error_details": null
+    },
+    {
+      "scenario": "Research Study",
+      "provider": "mock",
+      "config": {
+        "iterations": 2,
+        "timeout": 45,
+        "model": "enhanced"
+      },
+      "success": true,
+      "time_accuracy": 98.01005965773959,
+      "improvement_score": 0.7985,
+      "framework_time": 6.232959032058716,
+      "wall_clock_time": 6.232958078384399,
+      "efficiency": 0.6999998928964528,
+      "total_api_time": 4.363070654869079,
+      "framework_overhead_time": 1.8698883771896364,
+      "iterations": 2,
+      "retry_attempts": 1,
+      "quota_usage": {
+        "requests": 12,
+        "tokens": 2910,
+        "quota_exceeded": false
+      },
+      "quality_metrics": {
+        "bleu_score": 0.0,
+        "rouge_1_f": 0.0,
+        "rouge_2_f": 0.0,
+        "rouge_l_f": 0.0,
+        "custom_score": 0.2,
+        "hallucination_rate": 0.0,
+        "constraint_violations": 1,
+        "plan_completeness": 0.0,
+        "logical_coherence": 0.7
+      },
+      "cost_metrics": {
+        "input_tokens": 41,
+        "output_tokens": 19,
+        "total_tokens": 60,
+        "input_cost": 0.0,
+        "output_cost": 0.0,
+        "total_cost": 0.0
+      },
+      "error_details": null
+    },
+    {
+      "scenario": "Research Study",
+      "provider": "mock",
+      "config": {
+        "iterations": 1,
+        "timeout": 60,
+        "model": "premium"
+      },
+      "success": true,
+      "time_accuracy": 96.8476785495,
+      "improvement_score": 0.7985,
+      "framework_time": 4.476857662200928,
+      "wall_clock_time": 4.476855993270874,
+      "efficiency": 0.6999997390466426,
+      "total_api_time": 3.133799195289612,
+      "framework_overhead_time": 1.343058466911316,
+      "iterations": 1,
+      "retry_attempts": 0,
+      "quota_usage": {
+        "requests": 11,
+        "tokens": 2668,
+        "quota_exceeded": false
+      },
+      "quality_metrics": {
+        "bleu_score": 0.0,
+        "rouge_1_f": 0.0,
+        "rouge_2_f": 0.0,
+        "rouge_l_f": 0.0,
+        "custom_score": 0.2,
+        "hallucination_rate": 0.0,
+        "constraint_violations": 0,
+        "plan_completeness": 0.0,
+        "logical_coherence": 0.7
+      },
+      "cost_metrics": {
+        "input_tokens": 41,
+        "output_tokens": 19,
+        "total_tokens": 60,
+        "input_cost": 0.0,
+        "output_cost": 0.0,
+        "total_cost": 0.0
+      },
+      "error_details": null
+    },
+    {
+      "scenario": "Business Launch",
+      "provider": "gemini",
+      "config": {
+        "iterations": 1,
+        "timeout": 30,
+        "model": "standard"
+      },
+      "success": true,
+      "time_accuracy": 95.99103788590146,
+      "improvement_score": 0.7894424,
+      "framework_time": 1.4218049049377441,
+      "wall_clock_time": 1.4218049049377441,
+      "efficiency": 0.7,
+      "total_api_time": 0.9952634334564209,
+      "framework_overhead_time": 0.42654147148132326,
+      "iterations": 1,
+      "retry_attempts": 0,
+      "quota_usage": {
+        "requests": 13,
+        "tokens": 9862,
+        "quota_exceeded": false
+      },
+      "quality_metrics": {
+        "bleu_score": 0.0,
+        "rouge_1_f": 0.0,
+        "rouge_2_f": 0.0,
+        "rouge_l_f": 0.0,
+        "custom_score": 0.2,
+        "hallucination_rate": 0.0,
+        "constraint_violations": 0,
+        "plan_completeness": 0.0,
+        "logical_coherence": 0.7
+      },
+      "cost_metrics": {
+        "input_tokens": 28,
+        "output_tokens": 9,
+        "total_tokens": 37,
+        "input_cost": 4.2000000000000004e-05,
+        "output_cost": 5.4e-05,
+        "total_cost": 9.6e-05
+      },
+      "error_details": null
+    },
+    {
+      "scenario": "Business Launch",
+      "provider": "gemini",
+      "config": {
+        "iterations": 2,
+        "timeout": 45,
+        "model": "enhanced"
+      },
+      "success": true,
+      "time_accuracy": 95.62801410199378,
+      "improvement_score": 0.7574423999999998,
+      "framework_time": 1.9887778759002686,
+      "wall_clock_time": 1.9887769222259521,
+      "efficiency": 0.6999996643305271,
+      "total_api_time": 1.3921438455581665,
+      "framework_overhead_time": 0.596634030342102,
+      "iterations": 2,
+      "retry_attempts": 0,
+      "quota_usage": {
+        "requests": 14,
+        "tokens": 10086,
+        "quota_exceeded": false
+      },
+      "quality_metrics": {
+        "bleu_score": 0.0,
+        "rouge_1_f": 0.0,
+        "rouge_2_f": 0.0,
+        "rouge_l_f": 0.0,
+        "custom_score": 0.2,
+        "hallucination_rate": 0.4,
+        "constraint_violations": 0,
+        "plan_completeness": 0.0,
+        "logical_coherence": 0.7
+      },
+      "cost_metrics": {
+        "input_tokens": 28,
+        "output_tokens": 9,
+        "total_tokens": 37,
+        "input_cost": 4.2000000000000004e-05,
+        "output_cost": 5.4e-05,
+        "total_cost": 9.6e-05
+      },
+      "error_details": null
+    },
+    {
+      "scenario": "Business Launch",
+      "provider": "gemini",
+      "config": {
+        "iterations": 1,
+        "timeout": 60,
+        "model": "premium"
+      },
+      "success": true,
+      "time_accuracy": 97.065025829277,
+      "improvement_score": 0.7894424,
+      "framework_time": 1.8094110488891602,
+      "wall_clock_time": 1.8094100952148438,
+      "efficiency": 0.6999996310556288,
+      "total_api_time": 1.2665870666503904,
+      "framework_overhead_time": 0.5428239822387697,
+      "iterations": 1,
+      "retry_attempts": 0,
+      "quota_usage": {
+        "requests": 15,
+        "tokens": 10310,
+        "quota_exceeded": false
+      },
+      "quality_metrics": {
+        "bleu_score": 0.0,
+        "rouge_1_f": 0.0,
+        "rouge_2_f": 0.0,
+        "rouge_l_f": 0.0,
+        "custom_score": 0.2,
+        "hallucination_rate": 0.0,
+        "constraint_violations": 2,
+        "plan_completeness": 0.0,
+        "logical_coherence": 0.7
+      },
+      "cost_metrics": {
+        "input_tokens": 28,
+        "output_tokens": 9,
+        "total_tokens": 37,
+        "input_cost": 4.2000000000000004e-05,
+        "output_cost": 5.4e-05,
+        "total_cost": 9.6e-05
+      },
+      "error_details": null
+    },
+    {
+      "scenario": "Business Launch",
+      "provider": "openai",
+      "config": {
+        "iterations": 1,
+        "timeout": 30,
+        "model": "standard"
+      },
+      "success": true,
+      "time_accuracy": 96.8041002567453,
+      "improvement_score": 0.8445999999999999,
+      "framework_time": 1.4697811603546143,
+      "wall_clock_time": 1.4697799682617188,
+      "efficiency": 0.6999994322521955,
+      "total_api_time": 1.028845977783203,
+      "framework_overhead_time": 0.4409351825714112,
+      "iterations": 1,
+      "retry_attempts": 0,
+      "quota_usage": {
+        "requests": 13,
+        "tokens": 8987,
+        "quota_exceeded": false
+      },
+      "quality_metrics": {
+        "bleu_score": 0.0,
+        "rouge_1_f": 0.0,
+        "rouge_2_f": 0.0,
+        "rouge_l_f": 0.0,
+        "custom_score": 0.5,
+        "hallucination_rate": 0.0,
+        "constraint_violations": 2,
+        "plan_completeness": 0.25,
+        "logical_coherence": 0.7
+      },
+      "cost_metrics": {
+        "input_tokens": 28,
+        "output_tokens": 11,
+        "total_tokens": 39,
+        "input_cost": 0.00084,
+        "output_cost": 0.0006599999999999999,
+        "total_cost": 0.0015
+      },
+      "error_details": null
+    },
+    {
+      "scenario": "Business Launch",
+      "provider": "openai",
+      "config": {
+        "iterations": 2,
+        "timeout": 45,
+        "model": "enhanced"
+      },
+      "success": true,
+      "time_accuracy": 96.05284418443242,
+      "improvement_score": 0.8445999999999999,
+      "framework_time": 1.5319178104400635,
+      "wall_clock_time": 1.5319170951843262,
+      "efficiency": 0.6999996731684867,
+      "total_api_time": 1.0723419666290281,
+      "framework_overhead_time": 0.45957584381103533,
+      "iterations": 2,
+      "retry_attempts": 0,
+      "quota_usage": {
+        "requests": 14,
+        "tokens": 9198,
+        "quota_exceeded": false
+      },
+      "quality_metrics": {
+        "bleu_score": 0.0,
+        "rouge_1_f": 0.0,
+        "rouge_2_f": 0.0,
+        "rouge_l_f": 0.0,
+        "custom_score": 0.5,
+        "hallucination_rate": 0.0,
+        "constraint_violations": 2,
+        "plan_completeness": 0.25,
+        "logical_coherence": 0.7
+      },
+      "cost_metrics": {
+        "input_tokens": 28,
+        "output_tokens": 11,
+        "total_tokens": 39,
+        "input_cost": 0.00084,
+        "output_cost": 0.0006599999999999999,
+        "total_cost": 0.0015
+      },
+      "error_details": null
+    },
+    {
+      "scenario": "Business Launch",
+      "provider": "openai",
+      "config": {
+        "iterations": 1,
+        "timeout": 60,
+        "model": "premium"
+      },
+      "success": true,
+      "time_accuracy": 98.09424700979058,
+      "improvement_score": 0.8125999999999999,
+      "framework_time": 1.9034829139709473,
+      "wall_clock_time": 1.9034829139709473,
+      "efficiency": 0.7,
+      "total_api_time": 1.332438039779663,
+      "framework_overhead_time": 0.5710448741912844,
+      "iterations": 1,
+      "retry_attempts": 0,
+      "quota_usage": {
+        "requests": 15,
+        "tokens": 9409,
+        "quota_exceeded": false
+      },
+      "quality_metrics": {
+        "bleu_score": 0.0,
+        "rouge_1_f": 0.0,
+        "rouge_2_f": 0.0,
+        "rouge_l_f": 0.0,
+        "custom_score": 0.5,
+        "hallucination_rate": 0.4,
+        "constraint_violations": 0,
+        "plan_completeness": 0.25,
+        "logical_coherence": 0.7
+      },
+      "cost_metrics": {
+        "input_tokens": 28,
+        "output_tokens": 11,
+        "total_tokens": 39,
+        "input_cost": 0.00084,
+        "output_cost": 0.0006599999999999999,
+        "total_cost": 0.0015
+      },
+      "error_details": null
+    },
+    {
+      "scenario": "Business Launch",
+      "provider": "claude",
+      "config": {
+        "iterations": 1,
+        "timeout": 30,
+        "model": "standard"
+      },
+      "success": true,
+      "time_accuracy": 99.73918155744751,
+      "improvement_score": 0.756798,
+      "framework_time": 2.1599419116973877,
+      "wall_clock_time": 2.1599419116973877,
+      "efficiency": 0.7,
+      "total_api_time": 1.5119593381881713,
+      "framework_overhead_time": 0.6479825735092164,
+      "iterations": 1,
+      "retry_attempts": 0,
+      "quota_usage": {
+        "requests": 13,
+        "tokens": 9092,
+        "quota_exceeded": false
+      },
+      "quality_metrics": {
+        "bleu_score": 0.0,
+        "rouge_1_f": 0.0,
+        "rouge_2_f": 0.0,
+        "rouge_l_f": 0.0,
+        "custom_score": 0.1,
+        "hallucination_rate": 0.0,
+        "constraint_violations": 1,
+        "plan_completeness": 0.0,
+        "logical_coherence": 0.7
+      },
+      "cost_metrics": {
+        "input_tokens": 28,
+        "output_tokens": 10,
+        "total_tokens": 38,
+        "input_cost": 0.00042,
+        "output_cost": 0.00075,
+        "total_cost": 0.00117
+      },
+      "error_details": null
+    },
+    {
+      "scenario": "Business Launch",
+      "provider": "claude",
+      "config": {
+        "iterations": 2,
+        "timeout": 45,
+        "model": "enhanced"
+      },
+      "success": true,
+      "time_accuracy": 98.94819895095945,
+      "improvement_score": 0.756798,
+      "framework_time": 2.4017651081085205,
+      "wall_clock_time": 2.4017651081085205,
+      "efficiency": 0.7,
+      "total_api_time": 1.6812355756759643,
+      "framework_overhead_time": 0.7205295324325562,
+      "iterations": 2,
+      "retry_attempts": 0,
+      "quota_usage": {
+        "requests": 15,
+        "tokens": 9544,
+        "quota_exceeded": false
+      },
+      "quality_metrics": {
+        "bleu_score": 0.0,
+        "rouge_1_f": 0.0,
+        "rouge_2_f": 0.0,
+        "rouge_l_f": 0.0,
+        "custom_score": 0.1,
+        "hallucination_rate": 0.0,
+        "constraint_violations": 1,
+        "plan_completeness": 0.0,
+        "logical_coherence": 0.7
+      },
+      "cost_metrics": {
+        "input_tokens": 28,
+        "output_tokens": 10,
+        "total_tokens": 38,
+        "input_cost": 0.00042,
+        "output_cost": 0.00075,
+        "total_cost": 0.00117
+      },
+      "error_details": null
+    },
+    {
+      "scenario": "Business Launch",
+      "provider": "claude",
+      "config": {
+        "iterations": 1,
+        "timeout": 60,
+        "model": "premium"
+      },
+      "success": true,
+      "time_accuracy": 96.44433724013172,
+      "improvement_score": 0.756798,
+      "framework_time": 1.9804868698120117,
+      "wall_clock_time": 1.9804859161376953,
+      "efficiency": 0.699999662925298,
+      "total_api_time": 1.3863401412963867,
+      "framework_overhead_time": 0.594146728515625,
+      "iterations": 1,
+      "retry_attempts": 0,
+      "quota_usage": {
+        "requests": 14,
+        "tokens": 9318,
+        "quota_exceeded": false
+      },
+      "quality_metrics": {
+        "bleu_score": 0.0,
+        "rouge_1_f": 0.0,
+        "rouge_2_f": 0.0,
+        "rouge_l_f": 0.0,
+        "custom_score": 0.1,
+        "hallucination_rate": 0.0,
+        "constraint_violations": 0,
+        "plan_completeness": 0.0,
+        "logical_coherence": 0.7
+      },
+      "cost_metrics": {
+        "input_tokens": 28,
+        "output_tokens": 10,
+        "total_tokens": 38,
+        "input_cost": 0.00042,
+        "output_cost": 0.00075,
+        "total_cost": 0.00117
+      },
+      "error_details": null
+    },
+    {
+      "scenario": "Business Launch",
+      "provider": "mock",
+      "config": {
+        "iterations": 1,
+        "timeout": 30,
+        "model": "standard"
+      },
+      "success": true,
+      "time_accuracy": 98.23871021340773,
+      "improvement_score": 0.7995,
+      "framework_time": 3.8503758907318115,
+      "wall_clock_time": 3.8503758907318115,
+      "efficiency": 0.7,
+      "total_api_time": 2.6952631235122677,
+      "framework_overhead_time": 1.1551127672195438,
+      "iterations": 1,
+      "retry_attempts": 0,
+      "quota_usage": {
+        "requests": 13,
+        "tokens": 3142,
+        "quota_exceeded": false
+      },
+      "quality_metrics": {
+        "bleu_score": 0.0,
+        "rouge_1_f": 0.0,
+        "rouge_2_f": 0.0,
+        "rouge_l_f": 0.0,
+        "custom_score": 0.2,
+        "hallucination_rate": 0.0,
+        "constraint_violations": 0,
+        "plan_completeness": 0.0,
+        "logical_coherence": 0.7
+      },
+      "cost_metrics": {
+        "input_tokens": 38,
+        "output_tokens": 19,
+        "total_tokens": 57,
+        "input_cost": 0.0,
+        "output_cost": 0.0,
+        "total_cost": 0.0
+      },
+      "error_details": null
+    },
+    {
+      "scenario": "Business Launch",
+      "provider": "mock",
+      "config": {
+        "iterations": 2,
+        "timeout": 45,
+        "model": "enhanced"
+      },
+      "success": true,
+      "time_accuracy": 99.70575183719892,
+      "improvement_score": 0.7995,
+      "framework_time": 4.695344924926758,
+      "wall_clock_time": 4.695343732833862,
+      "efficiency": 0.6999998222782265,
+      "total_api_time": 3.2867406129837033,
+      "framework_overhead_time": 1.4086043119430545,
+      "iterations": 2,
+      "retry_attempts": 0,
+      "quota_usage": {
+        "requests": 15,
+        "tokens": 3606,
+        "quota_exceeded": false
+      },
+      "quality_metrics": {
+        "bleu_score": 0.0,
+        "rouge_1_f": 0.0,
+        "rouge_2_f": 0.0,
+        "rouge_l_f": 0.0,
+        "custom_score": 0.2,
+        "hallucination_rate": 0.0,
+        "constraint_violations": 1,
+        "plan_completeness": 0.0,
+        "logical_coherence": 0.7
+      },
+      "cost_metrics": {
+        "input_tokens": 38,
+        "output_tokens": 19,
+        "total_tokens": 57,
+        "input_cost": 0.0,
+        "output_cost": 0.0,
+        "total_cost": 0.0
+      },
+      "error_details": null
+    },
+    {
+      "scenario": "Business Launch",
+      "provider": "mock",
+      "config": {
+        "iterations": 1,
+        "timeout": 60,
+        "model": "premium"
+      },
+      "success": true,
+      "time_accuracy": 97.18250079343487,
+      "improvement_score": 0.7995,
+      "framework_time": 2.8531429767608643,
+      "wall_clock_time": 2.853142023086548,
+      "efficiency": 0.6999997660222333,
+      "total_api_time": 1.9971994161605833,
+      "framework_overhead_time": 0.855943560600281,
+      "iterations": 1,
+      "retry_attempts": 0,
+      "quota_usage": {
+        "requests": 14,
+        "tokens": 3374,
+        "quota_exceeded": false
+      },
+      "quality_metrics": {
+        "bleu_score": 0.0,
+        "rouge_1_f": 0.0,
+        "rouge_2_f": 0.0,
+        "rouge_l_f": 0.0,
+        "custom_score": 0.2,
+        "hallucination_rate": 0.0,
+        "constraint_violations": 0,
+        "plan_completeness": 0.0,
+        "logical_coherence": 0.7
+      },
+      "cost_metrics": {
+        "input_tokens": 38,
+        "output_tokens": 19,
+        "total_tokens": 57,
+        "input_cost": 0.0,
+        "output_cost": 0.0,
+        "total_cost": 0.0
+      },
+      "error_details": null
+    }
+  ],
+  "network_events": [
+    {
+      "timestamp": "2025-07-14T16:17:15.140182",
+      "provider": "gemini",
+      "status": "success",
+      "response_length": 1338,
+      "retry_count": 0
+    },
+    {
+      "timestamp": "2025-07-14T16:17:15.497756",
+      "provider": "gemini",
+      "status": "success",
+      "response_length": 1338,
+      "retry_count": 0
+    },
+    {
+      "timestamp": "2025-07-14T16:17:15.767097",
+      "provider": "openai",
+      "status": "success",
+      "response_length": 1338,
+      "retry_count": 0
+    },
+    {
+      "timestamp": "2025-07-14T16:17:16.033348",
+      "provider": "gemini",
+      "status": "success",
+      "response_length": 1338,
+      "retry_count": 0
+    },
+    {
+      "timestamp": "2025-07-14T16:17:16.993426",
+      "provider": "openai",
+      "status": "success",
+      "response_length": 946,
+      "retry_count": 0
+    },
+    {
+      "timestamp": "2025-07-14T16:17:17.480199",
+      "provider": "claude",
+      "status": "success",
+      "response_length": 1338,
+      "retry_count": 0
+    },
+    {
+      "timestamp": "2025-07-14T16:17:17.638058",
+      "provider": "openai",
+      "status": "success",
+      "response_length": 946,
+      "retry_count": 0
+    },
+    {
+      "timestamp": "2025-07-14T16:17:18.045504",
+      "provider": "claude",
+      "status": "success",
+      "response_length": 946,
+      "retry_count": 0
+    },
+    {
+      "timestamp": "2025-07-14T16:17:18.230402",
+      "provider": "claude",
+      "status": "success",
+      "response_length": 1338,
+      "retry_count": 0
+    },
+    {
+      "timestamp": "2025-07-14T16:17:18.974936",
+      "provider": "mock",
+      "status": "success",
+      "response_length": 77,
+      "retry_count": 0
+    },
+    {
+      "timestamp": "2025-07-14T16:17:19.237572",
+      "provider": "mock",
+      "status": "success",
+      "response_length": 77,
+      "retry_count": 0
+    },
+    {
+      "timestamp": "2025-07-14T16:17:19.472837",
+      "provider": "gemini",
+      "status": "success",
+      "response_length": 946,
+      "retry_count": 0
+    },
+    {
+      "timestamp": "2025-07-14T16:17:20.089718",
+      "provider": "gemini",
+      "status": "success",
+      "response_length": 1338,
+      "retry_count": 0
+    },
+    {
+      "timestamp": "2025-07-14T16:17:20.513339",
+      "provider": "gemini",
+      "status": "success",
+      "response_length": 946,
+      "retry_count": 0
+    },
+    {
+      "timestamp": "2025-07-14T16:17:21.297786",
+      "provider": "mock",
+      "status": "success",
+      "response_length": 77,
+      "retry_count": 0
+    },
+    {
+      "timestamp": "2025-07-14T16:17:21.698180",
+      "provider": "openai",
+      "status": "success",
+      "response_length": 946,
+      "retry_count": 0
+    },
+    {
+      "timestamp": "2025-07-14T16:17:21.754764",
+      "provider": "openai",
+      "status": "success",
+      "response_length": 946,
+      "retry_count": 0
+    },
+    {
+      "timestamp": "2025-07-14T16:17:22.003278",
+      "provider": "openai",
+      "status": "success",
+      "response_length": 1338,
+      "retry_count": 0
+    },
+    {
+      "timestamp": "2025-07-14T16:17:22.349880",
+      "provider": "claude",
+      "status": "success",
+      "response_length": 946,
+      "retry_count": 0
+    },
+    {
+      "timestamp": "2025-07-14T16:17:23.554037",
+      "provider": "mock",
+      "status": "success",
+      "response_length": 77,
+      "retry_count": 0
+    },
+    {
+      "timestamp": "2025-07-14T16:17:23.617954",
+      "provider": "claude",
+      "status": "success",
+      "response_length": 946,
+      "retry_count": 0
+    },
+    {
+      "timestamp": "2025-07-14T16:17:24.257984",
+      "provider": "claude",
+      "status": "success",
+      "response_length": 946,
+      "retry_count": 0
+    },
+    {
+      "timestamp": "2025-07-14T16:17:25.263305",
+      "provider": "mock",
+      "status": "success",
+      "response_length": 77,
+      "retry_count": 0
+    },
+    {
+      "timestamp": "2025-07-14T16:17:25.270636",
+      "provider": "gemini",
+      "status": "success",
+      "response_length": 69,
+      "retry_count": 0
+    },
+    {
+      "timestamp": "2025-07-14T16:17:25.387981",
+      "provider": "gemini",
+      "status": "success",
+      "response_length": 69,
+      "retry_count": 0
+    },
+    {
+      "timestamp": "2025-07-14T16:17:26.122115",
+      "provider": "gemini",
+      "status": "success",
+      "response_length": 69,
+      "retry_count": 0
+    },
+    {
+      "timestamp": "2025-07-14T16:17:26.266757",
+      "provider": "openai",
+      "status": "success",
+      "response_length": 56,
+      "retry_count": 0
+    },
+    {
+      "timestamp": "2025-07-14T16:17:27.501638",
+      "provider": "claude",
+      "status": "success",
+      "response_length": 71,
+      "retry_count": 0
+    },
+    {
+      "timestamp": "2025-07-14T16:17:27.759329",
+      "provider": "openai",
+      "status": "success",
+      "response_length": 56,
+      "retry_count": 0
+    },
+    {
+      "timestamp": "2025-07-14T16:17:28.019044",
+      "provider": "openai",
+      "status": "success",
+      "response_length": 56,
+      "retry_count": 0
+    },
+    {
+      "timestamp": "2025-07-14T16:17:28.193983",
+      "provider": "mock",
+      "status": "success",
+      "response_length": 77,
+      "retry_count": 0
+    },
+    {
+      "timestamp": "2025-07-14T16:17:28.518425",
+      "provider": "claude",
+      "status": "success",
+      "response_length": 71,
+      "retry_count": 0
+    },
+    {
+      "timestamp": "2025-07-14T16:17:29.117011",
+      "provider": "claude",
+      "status": "success",
+      "response_length": 71,
+      "retry_count": 0
+    },
+    {
+      "timestamp": "2025-07-14T16:17:31.118122",
+      "provider": "gemini",
+      "status": "success",
+      "response_length": 69,
+      "retry_count": 0
+    },
+    {
+      "timestamp": "2025-07-14T16:17:31.366796",
+      "provider": "mock",
+      "status": "success",
+      "response_length": 80,
+      "retry_count": 0
+    },
+    {
+      "timestamp": "2025-07-14T16:17:31.831793",
+      "provider": "gemini",
+      "status": "success",
+      "response_length": 69,
+      "retry_count": 0
+    },
+    {
+      "timestamp": "2025-07-14T16:17:32.359121",
+      "provider": "gemini",
+      "status": "success",
+      "response_length": 69,
+      "retry_count": 0
+    },
+    {
+      "timestamp": "2025-07-14T16:17:32.661021",
+      "provider": "mock",
+      "status": "success",
+      "response_length": 80,
+      "retry_count": 0
+    },
+    {
+      "timestamp": "2025-07-14T16:17:33.268595",
+      "provider": "mock",
+      "status": "success",
+      "response_length": 80,
+      "retry_count": 0
+    },
+    {
+      "timestamp": "2025-07-14T16:17:33.465574",
+      "provider": "openai",
+      "status": "success",
+      "response_length": 56,
+      "retry_count": 0
+    },
+    {
+      "timestamp": "2025-07-14T16:17:33.765611",
+      "provider": "openai",
+      "status": "success",
+      "response_length": 56,
+      "retry_count": 0
+    },
+    {
+      "timestamp": "2025-07-14T16:17:34.537098",
+      "provider": "claude",
+      "status": "success",
+      "response_length": 71,
+      "retry_count": 0
+    },
+    {
+      "timestamp": "2025-07-14T16:17:35.302853",
+      "provider": "openai",
+      "status": "success",
+      "response_length": 56,
+      "retry_count": 1
+    },
+    {
+      "timestamp": "2025-07-14T16:17:35.756086",
+      "provider": "claude",
+      "status": "success",
+      "response_length": 71,
+      "retry_count": 0
+    },
+    {
+      "timestamp": "2025-07-14T16:17:35.781235",
+      "provider": "claude",
+      "status": "success",
+      "response_length": 71,
+      "retry_count": 0
+    },
+    {
+      "timestamp": "2025-07-14T16:17:37.203259",
+      "provider": "gemini",
+      "status": "success",
+      "response_length": 69,
+      "retry_count": 0
+    },
+    {
+      "timestamp": "2025-07-14T16:17:38.904635",
+      "provider": "mock",
+      "status": "success",
+      "response_length": 76,
+      "retry_count": 0
+    },
+    {
+      "timestamp": "2025-07-14T16:17:39.192205",
+      "provider": "gemini",
+      "status": "success",
+      "response_length": 69,
+      "retry_count": 0
+    },
+    {
+      "timestamp": "2025-07-14T16:17:40.233171",
+      "provider": "mock",
+      "status": "success",
+      "response_length": 76,
+      "retry_count": 0
+    },
+    {
+      "timestamp": "2025-07-14T16:17:40.662369",
+      "provider": "openai",
+      "status": "success",
+      "response_length": 56,
+      "retry_count": 0
+    },
+    {
+      "timestamp": "2025-07-14T16:17:40.714223",
+      "provider": "gemini",
+      "status": "success",
+      "response_length": 69,
+      "retry_count": 0
+    },
+    {
+      "timestamp": "2025-07-14T16:17:41.536051",
+      "provider": "mock",
+      "status": "success",
+      "response_length": 76,
+      "retry_count": 1
+    },
+    {
+      "timestamp": "2025-07-14T16:17:41.765172",
+      "provider": "openai",
+      "status": "success",
+      "response_length": 56,
+      "retry_count": 0
+    },
+    {
+      "timestamp": "2025-07-14T16:17:42.566166",
+      "provider": "openai",
+      "status": "success",
+      "response_length": 56,
+      "retry_count": 0
+    },
+    {
+      "timestamp": "2025-07-14T16:17:42.874444",
+      "provider": "claude",
+      "status": "success",
+      "response_length": 71,
+      "retry_count": 0
+    },
+    {
+      "timestamp": "2025-07-14T16:17:43.745902",
+      "provider": "claude",
+      "status": "success",
+      "response_length": 71,
+      "retry_count": 0
+    },
+    {
+      "timestamp": "2025-07-14T16:17:43.937898",
+      "provider": "claude",
+      "status": "success",
+      "response_length": 71,
+      "retry_count": 0
+    },
+    {
+      "timestamp": "2025-07-14T16:17:46.416712",
+      "provider": "mock",
+      "status": "success",
+      "response_length": 77,
+      "retry_count": 0
+    },
+    {
+      "timestamp": "2025-07-14T16:17:46.599220",
+      "provider": "mock",
+      "status": "success",
+      "response_length": 77,
+      "retry_count": 0
+    },
+    {
+      "timestamp": "2025-07-14T16:17:47.570038",
+      "provider": "mock",
+      "status": "success",
+      "response_length": 77,
+      "retry_count": 0
+    }
+  ],
+  "retry_events": [
+    {
+      "timestamp": "2025-07-14T16:17:33.301657",
+      "provider": "openai",
+      "retry_attempt": 0,
+      "error_type": "server_error",
+      "prompt_length": 166
+    },
+    {
+      "timestamp": "2025-07-14T16:17:39.534924",
+      "provider": "mock",
+      "retry_attempt": 0,
+      "error_type": "timeout",
+      "prompt_length": 166
+    }
+  ],
+  "quota_usage": {
+    "gemini": {
+      "requests": 15,
+      "tokens": 10310,
+      "quota_exceeded": false
+    },
+    "openai": {
+      "requests": 15,
+      "tokens": 9409,
+      "quota_exceeded": false
+    },
+    "claude": {
+      "requests": 15,
+      "tokens": 9544,
+      "quota_exceeded": false
+    },
+    "mock": {
+      "requests": 15,
+      "tokens": 3606,
+      "quota_exceeded": false
+    }
+  }
+}

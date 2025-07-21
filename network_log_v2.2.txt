@@ -1,0 +1,97 @@
+Enhanced SRLP Framework v2.2 - Network Log
+Generated: 2025-07-14T00:07:15.165758
+================================================================================
+[2025-07-14T00:05:40.838697] mock - api_call_start - 0.00ms - Starting optimized API call for travel_planning
+[2025-07-14T00:05:40.838758] mock - api_call_start - 0.00ms - Starting optimized API call for cooking_dinner
+[2025-07-14T00:05:40.838850] mock - api_call_start - 0.00ms - Starting optimized API call for software_project
+[2025-07-14T00:05:42.253156] mock - mock_latency_simulation - 1411.83ms - Simulated 1.412s realistic delay
+[2025-07-14T00:05:42.253370] mock - success - 0.17ms - Call completed in 0.000s
+[2025-07-14T00:05:42.253506] mock - api_call_start - 0.00ms - Starting optimized API call for conference_planning
+[2025-07-14T00:05:44.145586] mock - mock_latency_simulation - 1886.99ms - Simulated 1.887s realistic delay
+[2025-07-14T00:05:44.145769] mock - success - 0.14ms - Call completed in 0.000s
+[2025-07-14T00:05:44.145885] mock - api_call_start - 0.00ms - Starting optimized API call for kitchen_renovation
+[2025-07-14T00:05:44.245810] mock - mock_latency_simulation - 3401.88ms - Simulated 3.402s realistic delay
+[2025-07-14T00:05:44.246030] mock - success - 0.18ms - Call completed in 0.000s
+[2025-07-14T00:05:44.246176] mock - api_call_start - 0.00ms - Starting optimized API call for travel_planning
+[2025-07-14T00:05:44.321098] mock - mock_latency_simulation - 3477.31ms - Simulated 3.477s realistic delay
+[2025-07-14T00:05:44.321285] mock - success - 0.15ms - Call completed in 0.000s
+[2025-07-14T00:05:44.321388] mock - api_call_start - 0.00ms - Starting optimized API call for cooking_dinner
+[2025-07-14T00:05:45.286765] mock - mock_latency_simulation - 963.83ms - Simulated 0.964s realistic delay
+[2025-07-14T00:05:45.286968] mock - success - 0.16ms - Call completed in 0.000s
+[2025-07-14T00:05:45.287184] mock - api_call_start - 0.00ms - Starting optimized API call for software_project
+[2025-07-14T00:05:46.063158] mock - mock_latency_simulation - 1811.88ms - Simulated 1.812s realistic delay
+[2025-07-14T00:05:46.063334] mock - success - 0.14ms - Call completed in 0.000s
+[2025-07-14T00:05:46.063420] mock - api_call_start - 0.00ms - Starting optimized API call for conference_planning
+[2025-07-14T00:05:47.344495] mock - mock_latency_simulation - 3193.52ms - Simulated 3.194s realistic delay
+[2025-07-14T00:05:47.344664] mock - success - 0.13ms - Call completed in 0.000s
+[2025-07-14T00:05:47.344744] mock - api_call_start - 0.00ms - Starting optimized API call for kitchen_renovation
+[2025-07-14T00:05:47.807941] mock - mock_latency_simulation - 2520.01ms - Simulated 2.520s realistic delay
+[2025-07-14T00:05:47.808130] mock - success - 0.16ms - Call completed in 0.000s
+[2025-07-14T00:05:47.808323] gemini - api_call_start - 0.00ms - Starting optimized API call for travel_planning
+[2025-07-14T00:05:48.790809] mock - mock_latency_simulation - 2724.36ms - Simulated 2.724s realistic delay
+[2025-07-14T00:05:48.790894] mock - success - 0.07ms - Call completed in 0.000s
+[2025-07-14T00:05:48.790969] gemini - api_call_start - 0.00ms - Starting optimized API call for cooking_dinner
+[2025-07-14T00:05:51.119593] gemini - success - 3311.23ms - Call completed in 3.311s
+[2025-07-14T00:05:51.121306] gemini - api_call_start - 0.00ms - Starting optimized API call for software_project
+[2025-07-14T00:05:51.538072] mock - mock_latency_simulation - 4188.24ms - Simulated 4.188s realistic delay
+[2025-07-14T00:05:51.538266] mock - success - 0.16ms - Call completed in 0.000s
+[2025-07-14T00:05:51.538415] gemini - api_call_start - 0.00ms - Starting optimized API call for conference_planning
+[2025-07-14T00:05:52.097623] gemini - success - 3306.62ms - Call completed in 3.307s
+[2025-07-14T00:05:52.098373] gemini - api_call_start - 0.00ms - Starting optimized API call for kitchen_renovation
+[2025-07-14T00:05:54.561224] gemini - success - 3439.88ms - Call completed in 3.440s
+[2025-07-14T00:05:54.561795] gemini - api_call_start - 0.00ms - Starting optimized API call for travel_planning
+[2025-07-14T00:05:54.824993] gemini - success - 3286.55ms - Call completed in 3.287s
+[2025-07-14T00:05:54.825422] gemini - api_call_start - 0.00ms - Starting optimized API call for cooking_dinner
+[2025-07-14T00:05:55.363736] gemini - success - 3265.32ms - Call completed in 3.265s
+[2025-07-14T00:05:55.364524] gemini - api_call_start - 0.00ms - Starting optimized API call for software_project
+[2025-07-14T00:05:59.470835] gemini - success - 4909.00ms - Call completed in 4.909s
+[2025-07-14T00:05:59.471283] gemini - api_call_start - 0.00ms - Starting optimized API call for conference_planning
+[2025-07-14T00:05:59.781571] gemini - success - 4956.08ms - Call completed in 4.956s
+[2025-07-14T00:05:59.781976] gemini - api_call_start - 0.00ms - Starting optimized API call for kitchen_renovation
+[2025-07-14T00:06:00.346655] gemini - success - 4982.08ms - Call completed in 4.982s
+[2025-07-14T00:06:00.358321] openai - api_call_start - 0.00ms - Starting optimized API call for travel_planning
+[2025-07-14T00:06:04.284316] gemini - success - 4812.98ms - Call completed in 4.813s
+[2025-07-14T00:06:04.292650] openai - api_call_start - 0.00ms - Starting optimized API call for cooking_dinner
+[2025-07-14T00:06:04.770558] gemini - success - 4988.54ms - Call completed in 4.989s
+[2025-07-14T00:06:04.779313] openai - api_call_start - 0.00ms - Starting optimized API call for software_project
+[2025-07-14T00:06:07.821388] openai - success - 7463.01ms - Call completed in 7.463s
+[2025-07-14T00:06:07.827145] openai - api_call_start - 0.00ms - Starting optimized API call for conference_planning
+[2025-07-14T00:06:10.447417] openai - success - 5668.05ms - Call completed in 5.668s
+[2025-07-14T00:06:10.454961] openai - api_call_start - 0.00ms - Starting optimized API call for kitchen_renovation
+[2025-07-14T00:06:11.867926] openai - success - 7575.21ms - Call completed in 7.575s
+[2025-07-14T00:06:11.875780] openai - api_call_start - 0.00ms - Starting optimized API call for travel_planning
+[2025-07-14T00:06:13.265060] openai - success - 5437.87ms - Call completed in 5.438s
+[2025-07-14T00:06:13.271424] openai - api_call_start - 0.00ms - Starting optimized API call for cooking_dinner
+[2025-07-14T00:06:15.251328] openai - success - 4796.32ms - Call completed in 4.796s
+[2025-07-14T00:06:15.260834] openai - api_call_start - 0.00ms - Starting optimized API call for software_project
+[2025-07-14T00:06:20.243824] openai - success - 6972.34ms - Call completed in 6.972s
+[2025-07-14T00:06:20.252870] openai - api_call_start - 0.00ms - Starting optimized API call for conference_planning
+[2025-07-14T00:06:20.776667] openai - success - 8900.81ms - Call completed in 8.901s
+[2025-07-14T00:06:20.785083] openai - api_call_start - 0.00ms - Starting optimized API call for kitchen_renovation
+[2025-07-14T00:06:22.289016] openai - success - 7028.12ms - Call completed in 7.028s
+[2025-07-14T00:06:22.298502] claude - api_call_start - 0.00ms - Starting optimized API call for travel_planning
+[2025-07-14T00:06:26.064108] claude - success - 3765.56ms - Call completed in 3.766s
+[2025-07-14T00:06:26.073003] claude - api_call_start - 0.00ms - Starting optimized API call for cooking_dinner
+[2025-07-14T00:06:27.728502] openai - success - 7475.56ms - Call completed in 7.476s
+[2025-07-14T00:06:27.739263] claude - api_call_start - 0.00ms - Starting optimized API call for software_project
+[2025-07-14T00:06:28.316547] openai - success - 7531.40ms - Call completed in 7.531s
+[2025-07-14T00:06:28.324740] claude - api_call_start - 0.00ms - Starting optimized API call for conference_planning
+[2025-07-14T00:06:30.591169] claude - success - 4518.11ms - Call completed in 4.518s
+[2025-07-14T00:06:30.602232] claude - api_call_start - 0.00ms - Starting optimized API call for kitchen_renovation
+[2025-07-14T00:06:31.776482] claude - success - 4037.17ms - Call completed in 4.037s
+[2025-07-14T00:06:31.783850] claude - api_call_start - 0.00ms - Starting optimized API call for travel_planning
+[2025-07-14T00:06:32.187574] claude - success - 3862.78ms - Call completed in 3.863s
+[2025-07-14T00:06:32.197402] claude - api_call_start - 0.00ms - Starting optimized API call for cooking_dinner
+[2025-07-14T00:06:34.838044] claude - success - 4235.76ms - Call completed in 4.236s
+[2025-07-14T00:06:34.846585] claude - api_call_start - 0.00ms - Starting optimized API call for software_project
+[2025-07-14T00:06:38.753390] claude - success - 6555.93ms - Call completed in 6.556s
+[2025-07-14T00:06:38.763460] claude - api_call_start - 0.00ms - Starting optimized API call for conference_planning
+[2025-07-14T00:06:40.745029] claude - success - 5898.37ms - Call completed in 5.898s
+[2025-07-14T00:06:40.755404] claude - api_call_start - 0.00ms - Starting optimized API call for kitchen_renovation
+[2025-07-14T00:06:44.739499] claude - success - 5975.96ms - Call completed in 5.976s
+[2025-07-14T00:06:46.836282] claude - success - 6080.82ms - Call completed in 6.081s
+[2025-07-14T00:06:48.442458] claude - success - 16658.50ms - Call completed in 16.658s
+[2025-07-14T00:06:48.442553] claude - retry_timeout - 16658.50ms - Call took 16.658s (>15.0s), retrying in 0.9s
+[2025-07-14T00:07:06.727901] claude - success - 17401.96ms - Call completed in 17.402s
+[2025-07-14T00:07:06.727934] claude - retry_timeout - 17401.96ms - Call took 17.402s (>15.0s), retrying in 2.3s
+[2025-07-14T00:07:15.160308] claude - success - 6136.61ms - Call completed in 6.137s

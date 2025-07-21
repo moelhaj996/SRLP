@@ -1,0 +1,33 @@
+# Enhanced SRLP Framework v3.0 Dependencies
+# Core framework dependencies
+numpy>=1.21.0
+matplotlib>=3.5.0
+seaborn>=0.11.0
+aiohttp>=3.8.0
+requests>=2.28.0
+python-dotenv>=1.0.0    # Secure environment variable loading
+
+# New v3.0 dependencies for comprehensive metrics
+tiktoken>=0.5.0          # Token counting for cost analysis
+nltk>=3.8               # Natural Language Toolkit for BLEU scores
+rouge-score>=0.1.2      # ROUGE evaluation metrics
+sacrebleu>=2.3.1        # BLEU scoring (alternative implementation)
+
+# Interactive dashboard dependencies
+streamlit>=1.28.0       # Interactive dashboard
+plotly>=5.17.0          # Advanced visualizations
+dash>=2.14.0            # Alternative dashboard framework
+
+# Future Phase 3 dependencies (for documentation)
+# mermaid-py>=0.1.0       # Flow diagrams
+# graphviz>=0.20.0        # Graph visualization
+
+# Development and testing
+pytest>=7.0.0
+pytest-asyncio>=0.21.0
+black>=22.0.0
+flake8>=5.0.0
+
+# Data processing and export
+pandas>=1.5.0
+openpyxl>=3.0.0         # Excel export support

@@ -1,0 +1,8 @@
+{
+  "Total Framework Cost": "$0.3031",
+  "Average Cost per Test": "$0.0051",
+  "Most Expensive Provider": "claude",
+  "Most Cost-Effective Provider": "gemini",
+  "Total Input Tokens": 1935,
+  "Total Output Tokens": 6570
+}

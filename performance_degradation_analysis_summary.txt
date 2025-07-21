@@ -1,0 +1,24 @@
+
+================================================================================
+SRLP PERFORMANCE DEGRADATION ANALYSIS SUMMARY
+================================================================================
+
+🔍 Key Findings:
+
+• Slowest Scenario: Cooking Dinner (1.85s avg)
+• Most Error-Prone: Cooking Dinner (16 total failures)
+• Retry Rate: 1/45 tests (2.2%)
+
+📈 Recommendations:
+
+• Consider early termination after 3 iterations (diminishing returns)
+• Implement better constraint validation for complex scenarios
+• Add timeout mechanisms for scenarios prone to endless loops
+• Improve self-check mechanisms to reduce false acceptances
+
+📁 Generated Files:
+• 1_performance_degradation_by_scenario.png
+• 2_self_check_failure_patterns.png
+• 3_retry_saturation_map.png
+• 4_iteration_dropoff_curve.png
+• 5_failure_case_examples.txt

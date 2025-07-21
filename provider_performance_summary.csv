@@ -1,0 +1,5 @@
+Provider,Avg Time (s),Success Rate (%),Avg Quality Score,Avg Cost ($),Total Cost ($),Avg Efficiency,Total Retries,Hallucination Rate
+Gemini,1.35,100.0,0.247,0.0010,0.0145,0.700,0,0.053
+Openai,1.79,100.0,0.413,0.0089,0.1330,0.700,1,0.080
+Claude,1.74,100.0,0.173,0.0104,0.1556,0.700,0,0.053
+Mock,3.63,100.0,0.200,0.0000,0.0000,0.700,1,0.027

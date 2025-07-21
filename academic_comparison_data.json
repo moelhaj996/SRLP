@@ -1,0 +1,256 @@
+{
+  "srlp_metrics": {
+    "plan_quality": 0.75,
+    "cost_per_plan": 0.012,
+    "success_rate": 0.96,
+    "avg_iterations": 1.8,
+    "reasoning_depth": "deep",
+    "domain_generality": "broad",
+    "evaluation_rigor": "comprehensive"
+  },
+  "benchmarks": [
+    {
+      "name": "Chain-of-Thought",
+      "paper_title": "Chain-of-Thought Prompting Elicits Reasoning in Large Language Models",
+      "year": 2022,
+      "venue": "NeurIPS",
+      "approach": "Sequential reasoning with intermediate steps",
+      "plan_quality": 0.55,
+      "cost_per_plan": 0.018,
+      "success_rate": 0.82,
+      "avg_iterations": 1.0,
+      "reasoning_depth": "medium",
+      "domain_generality": "broad",
+      "evaluation_rigor": "standard",
+      "key_innovation": "Explicit reasoning chain visualization",
+      "limitations": [
+        "Single-pass reasoning",
+        "No self-correction mechanism",
+        "Limited error recovery",
+        "High variance in quality"
+      ],
+      "strengths": [
+        "Simple implementation",
+        "Broad applicability",
+        "Interpretable reasoning",
+        "Low computational overhead"
+      ]
+    },
+    {
+      "name": "Tree-of-Thoughts",
+      "paper_title": "Tree of Thoughts: Deliberate Problem Solving with Large Language Models",
+      "year": 2023,
+      "venue": "NeurIPS",
+      "approach": "Branching exploration with backtracking",
+      "plan_quality": 0.68,
+      "cost_per_plan": 0.032,
+      "success_rate": 0.89,
+      "avg_iterations": 4.2,
+      "reasoning_depth": "deep",
+      "domain_generality": "medium",
+      "evaluation_rigor": "comprehensive",
+      "key_innovation": "Systematic exploration of reasoning paths",
+      "limitations": [
+        "High computational cost",
+        "Complex implementation",
+        "Exponential search space",
+        "Requires domain-specific tuning"
+      ],
+      "strengths": [
+        "Systematic exploration",
+        "Self-correction capability",
+        "High-quality solutions",
+        "Robust error handling"
+      ]
+    },
+    {
+      "name": "ReAct",
+      "paper_title": "ReAct: Synergizing Reasoning and Acting in Language Models",
+      "year": 2022,
+      "venue": "ICLR",
+      "approach": "Interleaved reasoning and action execution",
+      "plan_quality": 0.61,
+      "cost_per_plan": 0.024,
+      "success_rate": 0.78,
+      "avg_iterations": 2.8,
+      "reasoning_depth": "medium",
+      "domain_generality": "medium",
+      "evaluation_rigor": "standard",
+      "key_innovation": "Action-grounded reasoning",
+      "limitations": [
+        "Requires action environment",
+        "Limited to interactive domains",
+        "Action space dependency",
+        "Error propagation issues"
+      ],
+      "strengths": [
+        "Grounded reasoning",
+        "Interactive capability",
+        "Real-world applicability",
+        "Dynamic adaptation"
+      ]
+    },
+    {
+      "name": "Self-Refine",
+      "paper_title": "Self-Refine: Iterative Refinement with Self-Feedback",
+      "year": 2023,
+      "venue": "NeurIPS",
+      "approach": "Iterative self-improvement with feedback",
+      "plan_quality": 0.64,
+      "cost_per_plan": 0.021,
+      "success_rate": 0.85,
+      "avg_iterations": 2.1,
+      "reasoning_depth": "medium",
+      "domain_generality": "broad",
+      "evaluation_rigor": "comprehensive",
+      "key_innovation": "Self-generated feedback loops",
+      "limitations": [
+        "Limited convergence guarantees",
+        "Feedback quality variance",
+        "Iteration overhead",
+        "Domain adaptation required"
+      ],
+      "strengths": [
+        "Self-improving capability",
+        "No external feedback needed",
+        "Iterative refinement",
+        "Quality improvement over time"
+      ]
+    },
+    {
+      "name": "Plan-and-Solve",
+      "paper_title": "Plan-and-Solve Prompting: Improving Zero-Shot Chain-of-Thought Reasoning",
+      "year": 2023,
+      "venue": "ACL",
+      "approach": "Explicit planning phase followed by execution",
+      "plan_quality": 0.59,
+      "cost_per_plan": 0.016,
+      "success_rate": 0.81,
+      "avg_iterations": 1.3,
+      "reasoning_depth": "medium",
+      "domain_generality": "broad",
+      "evaluation_rigor": "standard",
+      "key_innovation": "Structured planning decomposition",
+      "limitations": [
+        "Rigid planning structure",
+        "Limited adaptability",
+        "No error correction",
+        "Domain-specific prompts"
+      ],
+      "strengths": [
+        "Clear planning structure",
+        "Improved over CoT",
+        "Zero-shot capability",
+        "Systematic approach"
+      ]
+    },
+    {
+      "name": "Reflexion",
+      "paper_title": "Reflexion: Language Agents with Verbal Reinforcement Learning",
+      "year": 2023,
+      "venue": "NeurIPS",
+      "approach": "Verbal reinforcement learning with reflection",
+      "plan_quality": 0.66,
+      "cost_per_plan": 0.028,
+      "success_rate": 0.87,
+      "avg_iterations": 2.5,
+      "reasoning_depth": "deep",
+      "domain_generality": "medium",
+      "evaluation_rigor": "comprehensive",
+      "key_innovation": "Verbal reinforcement learning",
+      "limitations": [
+        "Complex reflection mechanism",
+        "High computational cost",
+        "Requires episodic memory",
+        "Domain-specific adaptation"
+      ],
+      "strengths": [
+        "Learning from failures",
+        "Long-term improvement",
+        "Sophisticated reflection",
+        "Adaptive behavior"
+      ]
+    }
+  ],
+  "comparisons": {
+    "Chain-of-Thought": {
+      "framework_name": "Chain-of-Thought",
+      "quality_advantage": 36.36363636363635,
+      "cost_efficiency": 33.33333333333333,
+      "success_improvement": 17.073170731707318,
+      "iteration_efficiency": -80.0,
+      "overall_score": 7.5107169253510655,
+      "statistical_significance": true,
+      "confidence_interval": [
+        5.0107169253510655,
+        10.010716925351065
+      ]
+    },
+    "Tree-of-Thoughts": {
+      "framework_name": "Tree-of-Thoughts",
+      "quality_advantage": 10.294117647058815,
+      "cost_efficiency": 62.5,
+      "success_improvement": 7.865168539325837,
+      "iteration_efficiency": 57.14285714285715,
+      "overall_score": 32.10809885752053,
+      "statistical_significance": true,
+      "confidence_interval": [
+        29.60809885752053,
+        34.60809885752053
+      ]
+    },
+    "ReAct": {
+      "framework_name": "ReAct",
+      "quality_advantage": 22.95081967213115,
+      "cost_efficiency": 50.0,
+      "success_improvement": 23.076923076923066,
+      "iteration_efficiency": 35.71428571428571,
+      "overall_score": 32.29733381372725,
+      "statistical_significance": true,
+      "confidence_interval": [
+        29.79733381372725,
+        34.79733381372725
+      ]
+    },
+    "Self-Refine": {
+      "framework_name": "Self-Refine",
+      "quality_advantage": 17.187499999999996,
+      "cost_efficiency": 42.85714285714286,
+      "success_improvement": 12.941176470588234,
+      "iteration_efficiency": 14.285714285714288,
+      "overall_score": 21.96297268907563,
+      "statistical_significance": true,
+      "confidence_interval": [
+        19.46297268907563,
+        24.46297268907563
+      ]
+    },
+    "Plan-and-Solve": {
+      "framework_name": "Plan-and-Solve",
+      "quality_advantage": 27.118644067796616,
+      "cost_efficiency": 25.0,
+      "success_improvement": 18.518518518518505,
+      "iteration_efficiency": -38.46153846153846,
+      "overall_score": 11.322915157660915,
+      "statistical_significance": true,
+      "confidence_interval": [
+        8.822915157660915,
+        13.822915157660915
+      ]
+    },
+    "Reflexion": {
+      "framework_name": "Reflexion",
+      "quality_advantage": 13.63636363636363,
+      "cost_efficiency": 57.14285714285714,
+      "success_improvement": 10.344827586206893,
+      "iteration_efficiency": 27.999999999999996,
+      "overall_score": 26.562830273175095,
+      "statistical_significance": true,
+      "confidence_interval": [
+        24.062830273175095,
+        29.062830273175095
+      ]
+    }
+  },
+  "generated_at": "2025-07-14T16:53:39.806228"
+}

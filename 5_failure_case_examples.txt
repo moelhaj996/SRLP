@@ -1,0 +1,43 @@
+
+================================================================================
+KNOWN FAILURE CASE EXAMPLES FOR THESIS
+================================================================================
+
+📌 Failure Mode: Invalid Final Plan
+--------------------------------------------------
+
+Example 1:
+  scenario: Event Organization
+  provider: claude
+  quality_score: 0.1
+  violations: 2
+  wall_time: 1.3573968410491943
+
+📌 Failure Mode: False Acceptance
+--------------------------------------------------
+
+Example 1:
+  scenario: Software Project
+  provider: gemini
+  hallucination_rate: 0.4
+  quality_score: 0.35000000000000003
+  wall_time: 0.8520200252532959
+
+Example 2:
+  scenario: Software Project
+  provider: openai
+  hallucination_rate: 0.4
+  quality_score: 0.25
+  wall_time: 2.2813050746917725
+
+Example 3:
+  scenario: Software Project
+  provider: claude
+  hallucination_rate: 0.4
+  quality_score: 0.25
+  wall_time: 2.559140920639038
+
+📌 Failure Mode: Endless Loop
+--------------------------------------------------
+No clear examples found in current dataset.
+

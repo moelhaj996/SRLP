@@ -27,22 +27,26 @@ The **Enhanced Self-Refinement for LLM Planners (SRLP) Framework v3.0** is a com
 
 ```mermaid
 graph TD
-    A[Problem Input] --> B[Initial Plan Generation]
-    B --> C[Self-Assessment Module]
-    C --> D{Quality Threshold Met?}
-    D -->|Yes| E[Final Optimized Plan]
-    D -->|No| F[Refinement Engine]
-    F --> G[Plan Enhancement]
-    G --> H[Iteration Tracking]
-    H --> C
+    A[📝 Problem Input] --> B[🤖 Generate Initial Plan]
+    B --> C[🔍 Self-Check Quality]
+    C --> D{✅ Good Enough?}
+    D -->|Yes| E[🎯 Final Plan]
+    D -->|No| F[🔄 Refine Plan]
+    F --> C
     
-    I[Provider Manager] --> B
-    I --> F
-    J[Metrics Collector] --> C
-    J --> H
-    K[Security Layer] --> I
-    L[Dashboard Engine] --> J
+    style A fill:#e1f5fe
+    style E fill:#c8e6c9
+    style D fill:#fff3e0
+    style F fill:#fce4ec
 ```
+
+### 🔄 **Simple Process Flow:**
+1. **Input**: User provides a planning problem
+2. **Generate**: LLM creates an initial plan
+3. **Check**: Framework evaluates plan quality
+4. **Decide**: If quality is good → Done! If not → Refine
+5. **Refine**: LLM improves the plan based on feedback
+6. **Repeat**: Continue until quality threshold is met
 
 ### 🤖 LLM Provider Integration
 - **OpenAI GPT-4**: Advanced reasoning and planning capabilities

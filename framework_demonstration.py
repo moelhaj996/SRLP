@@ -1,8 +1,7 @@
 #!/usr/bin/env python3
 """
-Enhanced Framework Demonstration - Addressing Review Feedback
-Fixes: timestamp bug, scenario coverage, parameter variation, mock timing
-Author: Mohamed Elhaj Suliman
+SRLP Framework v3.0 - Interactive Demonstration
+Author: AI Research Team
 """
 
 import os
@@ -29,7 +28,7 @@ print(f"⏰ Started at: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
 print()
 
 try:
-    from refinement_engine import create_refinement_engine, LLMFactory
+    from srlp_framework_v3 import SRLPFramework
     from test_scenarios import get_all_test_scenarios
     
     # Load ALL test scenarios (addressing missing scenarios issue)
@@ -100,8 +99,8 @@ try:
             print(f"\n🤖 Config {config_idx + 1}: {config_name}")
             
             try:
-                # Create engine with varied configuration
-                engine = create_refinement_engine(
+                # Create framework with varied configuration
+                framework = SRLPFramework(
                     provider=provider_name,
                     model=config['model'],
                     max_iterations=config['max_iter']

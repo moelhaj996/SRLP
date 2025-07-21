@@ -453,7 +453,7 @@ def main():
     
     # Initialize analyzer
     analyzer = PerformanceDegradationAnalyzer(
-        '/Users/mohamedelhajsuliman/Desktop/ Self-Refinement for LLM Planners Framework/enhanced_framework_results_v3.0.json'
+        '/Users/mohamedelhajsuliman/Desktop/ Self-Refinement for LLM Planners Framework/framework_results_v3.0.json'
     )
     
     # Generate comprehensive analysis

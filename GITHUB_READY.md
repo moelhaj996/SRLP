@@ -1,4 +1,4 @@
-# 🚀 GitHub Repository Preparation Guide
+# 🚀 SRLP Framework v3.0 - GitHub Ready Package
 
 ## ✅ Security Status: SECURED ✅
 
@@ -39,7 +39,7 @@ Your project is now **SAFE** to share on GitHub! All API keys have been removed 
 cd "/Users/mohamedelhajsuliman/Desktop/ Self-Refinement for LLM Planners Framework"
 git init
 git add .
-git commit -m "Initial commit: Enhanced SRLP Framework v3.0 with secure API key handling"
+git commit -m "Initial commit: SRLP Framework v3.0 with secure API key handling"
 ```
 
 ### Step 2: Create GitHub Repository
@@ -75,6 +75,10 @@ They will need to:
    ```bash
    python main.py
    ```
+
+## 📋 Repository Overview
+
+**Project**: Self-Refinement for LLM Planners Framework (SRLP) v3.0
 
 ## 🎯 Repository Features
 

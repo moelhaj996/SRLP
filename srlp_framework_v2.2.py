@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
-"""
-Enhanced SRLP Framework v2.2 - Optimized Retry Logic & Provider Efficiency
+"""SRLP Framework v2.2 - Self-Refinement for LLM Planners
 
 This script implements the actionable suggestions for enhancing the Enhanced SRLP Framework v2.1:
 
@@ -14,7 +13,7 @@ This script implements the actionable suggestions for enhancing the Enhanced SRL
 - Capped Retry Limits: Maximum 2 attempts to prevent excessive delays
 - Detailed Analytics: Provider efficiency metrics and bottleneck analysis
 
-Author: Enhanced SRLP Framework Team
+Author: AI Research Team
 Version: 2.2
 Date: 2025-07-12 19:00:00 CEST
 """

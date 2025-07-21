@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Performance Visualization Generator for Enhanced SRLP Framework
+SRLP Framework v3.0 - Performance Visualization Generator
 
 This script generates comprehensive visualizations based on the actionable suggestions:
 - Average Wall_Clock_Time per provider
@@ -9,7 +9,7 @@ This script generates comprehensive visualizations based on the actionable sugge
 - Provider efficiency comparisons
 - Bottleneck identification charts
 
-Author: Enhanced SRLP Framework Team
+Author: AI Research Team
 Version: 1.0
 Date: 2025-07-12
 """
@@ -49,7 +49,7 @@ class PerformanceVisualizer:
                 
             # Load JSON results
             if Path(self.results_file).exists():
-                with open(self.results_file, 'r') as f:
+                with open('framework_results_v3.0.json', 'r') as f:
                     self.results = json.load(f)
                 print(f"✅ Loaded results from {self.results_file}")
             else:

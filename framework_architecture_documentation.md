@@ -1,4 +1,4 @@
-# Enhanced SRLP Framework v3.0 - Architecture Documentation
+# SRLP Framework v3.0 - Architecture Documentation
 
 ## 📋 Table of Contents
 1. [Framework Overview](#framework-overview)
@@ -16,7 +16,7 @@
 
 ## 🏗️ Framework Overview
 
-The Enhanced Self-Refinement for LLM Planners (SRLP) Framework v3.0 is a comprehensive evaluation and testing platform designed to assess the performance of Large Language Models (LLMs) in planning tasks through iterative self-refinement processes.
+The Self-Refinement for LLM Planners (SRLP) Framework v3.0 is a comprehensive evaluation and testing platform designed to assess the performance of Large Language Models (LLMs) in planning tasks through iterative self-refinement processes.
 
 ### Key Features
 - **Multi-Provider Support**: Gemini, OpenAI GPT, Claude, and Mock providers
@@ -42,7 +42,7 @@ The Enhanced Self-Refinement for LLM Planners (SRLP) Framework v3.0 is a compreh
 **Purpose**: Orchestrates the initial plan generation from LLM providers
 
 **Components**:
-- `EnhancedSRLPFramework`: Main orchestrator class
+- `SRLPFramework`: Main orchestrator class
 - `simulate_api_call_with_retry()`: API interaction with retry logic
 - `_generate_mock_response()`: Mock provider simulation
 
@@ -520,7 +520,7 @@ async def execute_test_case(scenario, provider, config):
 
 ## 📖 Conclusion
 
-The Enhanced SRLP Framework v3.0 represents a significant advancement in LLM planning evaluation, providing:
+The SRLP Framework v3.0 represents a significant advancement in LLM planning evaluation, providing:
 
 - **Comprehensive Metrics**: 15+ evaluation dimensions
 - **Research-Grade Quality**: Publication-ready analysis
@@ -532,6 +532,6 @@ This architecture documentation serves as a complete reference for understanding
 
 ---
 
-*Enhanced SRLP Framework v3.0 - Architecture Documentation*  
+*SRLP Framework v3.0 - Architecture Documentation*  
 *Last Updated: January 12, 2025*  
 *Version: 3.0.0*

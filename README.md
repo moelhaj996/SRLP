@@ -1,4 +1,4 @@
-# Enhanced Self-Refinement for LLM Planners Framework (SRLP) v3.0
+# Self-Refinement for LLM Planners Framework (SRLP) v3.0
 
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://python.org)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
@@ -14,7 +14,7 @@
 
 ## 🎯 Executive Summary
 
-The **Enhanced Self-Refinement for LLM Planners (SRLP) Framework v3.0** is a comprehensive research platform that implements and evaluates iterative self-refinement strategies across multiple Large Language Model (LLM) providers. This framework serves as the core implementation for a master's thesis investigating the effectiveness of automated feedback loops in improving LLM planning capabilities.
+The **Self-Refinement for LLM Planners (SRLP) Framework v3.0** is a comprehensive research platform that implements and evaluates iterative self-refinement strategies across multiple Large Language Model (LLM) providers. This framework serves as the core implementation for a master's thesis investigating the effectiveness of automated feedback loops in improving LLM planning capabilities.
 
 ### 🏆 Key Achievements
 - **Multi-Provider Integration**: Full support for GPT-4, Claude-3, Google Gemini, and extensible architecture
@@ -263,7 +263,7 @@ If you use this framework in your research, please cite:
 
 ```bibtex
 @mastersthesis{elhaj2025srlp,
-  title={Enhanced Self-Refinement for LLM Planners: A Comprehensive Framework for Iterative Plan Optimization},
+  title={Self-Refinement for LLM Planners: A Comprehensive Framework for Iterative Plan Optimization},
   author={Elhaj Suliman, Mohamed},
   year={2025},
   school={Master's Program in Computer Science - AI \& Big Data},

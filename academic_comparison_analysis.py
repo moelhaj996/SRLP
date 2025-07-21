@@ -1,13 +1,12 @@
 #!/usr/bin/env python3
 """
-Academic Comparison Analysis for Enhanced SRLP Framework v3.0
+Academic Comparison Analysis for SRLP Framework v3.0
 
-This module provides comprehensive comparison with existing LLM planning approaches,
-including quantitative benchmarks and qualitative analysis.
+This module generates comprehensive academic comparison reports and visualizations
+for the Self-Refinement for LLM Planners Framework.
 
-Author: Enhanced SRLP Framework Team
-Version: 3.0.0
-Date: January 2025
+Author: SRLP Framework Team
+Date: 2025
 """
 
 import json
@@ -229,7 +228,7 @@ class AcademicComparisonAnalyzer:
     def _load_srlp_metrics(self) -> Dict[str, Any]:
         """Load SRLP framework metrics from results"""
         try:
-            with open('enhanced_framework_results_v3.0.json', 'r') as f:
+            with open('framework_results_v3.0.json', 'r') as f:
                 results = json.load(f)
             
             # Extract key metrics
@@ -332,7 +331,7 @@ class AcademicComparisonAnalyzer:
         
         # Create figure with subplots
         fig, axes = plt.subplots(2, 2, figsize=(16, 12))
-        fig.suptitle('Enhanced SRLP Framework v3.0 - Academic Comparison Analysis', 
+        fig.suptitle('SRLP Framework v3.0 - Academic Comparison Analysis', 
                      fontsize=16, fontweight='bold')
         
         # 1. Quality vs Cost Scatter Plot
@@ -470,13 +469,13 @@ class AcademicComparisonAnalyzer:
             self.calculate_comparisons()
         
         report = []
-        report.append("# Enhanced SRLP Framework v3.0 - Academic Comparison Report")
+        report.append("# SRLP Framework v3.0 - Academic Comparison Report")
         report.append(f"Generated: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
         report.append("\n" + "="*80 + "\n")
         
         # Executive Summary
         report.append("## Executive Summary")
-        report.append("\nThe Enhanced SRLP Framework v3.0 demonstrates significant improvements over existing")
+        report.append("\nThe SRLP Framework v3.0 demonstrates significant improvements over existing")
         report.append("academic benchmarks in LLM planning tasks. Key findings include:")
         report.append("")
         
@@ -522,7 +521,7 @@ class AcademicComparisonAnalyzer:
             report.append("")
         
         # SRLP Advantages
-        report.append("## Enhanced SRLP Framework v3.0 - Unique Advantages")
+        report.append("## SRLP Framework v3.0 - Unique Advantages")
         report.append("")
         report.append("### Novel Contributions")
         report.append("1. **Multi-Dimensional Quality Assessment**: Comprehensive evaluation including")
@@ -580,7 +579,7 @@ class AcademicComparisonAnalyzer:
         # Conclusion
         report.append("\n## Conclusion")
         report.append("")
-        report.append("The Enhanced SRLP Framework v3.0 represents a significant advancement in LLM")
+        report.append("The SRLP Framework v3.0 represents a significant advancement in LLM")
         report.append("planning evaluation, demonstrating consistent improvements across multiple")
         report.append("dimensions compared to existing academic benchmarks. The framework's")
         report.append("comprehensive approach to quality assessment, cost optimization, and")
@@ -655,7 +654,7 @@ class AcademicComparisonAnalyzer:
 
 def main():
     """Main execution function"""
-    print("🔬 Enhanced SRLP Framework v3.0 - Academic Comparison Analysis")
+    print("🔬 SRLP Framework v3.0 - Academic Comparison Analysis")
     print("=" * 70)
     
     # Initialize analyzer

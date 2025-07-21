@@ -1,16 +1,16 @@
 #!/usr/bin/env python3
 """
-Enhanced Self-Refinement for LLM Planners Framework v3.0
+Self-Refinement for LLM Planners Framework v3.0
 Research-Grade Evaluation Pipeline with Comprehensive Metrics
 
 New Features in v3.0:
 - Token-level cost analysis per provider/scenario
 - Model output quality metrics (BLEU, ROUGE, custom scoring)
 - Hallucination/constraint violation tracking
-- Enhanced summary tables for thesis appendix
+- Summary tables for thesis appendix
 - Comprehensive error handling and resilience
 
-Author: Enhanced SRLP Framework Team
+Author: SRLP Framework Team
 Date: 2025-01-12
 """
 
@@ -282,8 +282,8 @@ class QualityAssessor:
         return sum(1 for indicator in violation_indicators 
                   if indicator.lower() in validation_report.lower())
 
-class EnhancedSRLPFramework:
-    """Enhanced Self-Refinement for LLM Planners Framework v3.0"""
+class SRLPFramework:
+    """Self-Refinement for LLM Planners Framework v3.0"""
     
     def __init__(self):
         self.results: List[TestResult] = []
@@ -662,7 +662,7 @@ class EnhancedSRLPFramework:
         total_time = time.time() - start_time
         
         # Calculate comprehensive statistics
-        stats = self._calculate_enhanced_statistics()
+        stats = self._calculate_statistics()
         stats['total_duration'] = total_time
         stats['total_tests'] = len(self.results)
         stats['successful_tests'] = sum(1 for r in self.results if r.success)
@@ -670,7 +670,7 @@ class EnhancedSRLPFramework:
         
         return stats
     
-    def _calculate_enhanced_statistics(self) -> Dict[str, Any]:
+    def _calculate_statistics(self) -> Dict[str, Any]:
         """Calculate comprehensive statistics including new metrics"""
         if not self.results:
             return {}
@@ -791,9 +791,9 @@ class EnhancedSRLPFramework:
         
         return efficiency_data
     
-    def save_enhanced_results(self, filename: str = "enhanced_framework_results_v3.0.json"):
+    def save_results(self, filename: str = "framework_results_v3.0.json"):
         """Save comprehensive results with all new metrics"""
-        stats = self._calculate_enhanced_statistics()
+        stats = self._calculate_statistics()
         
         # Prepare detailed results
         detailed_results = []
@@ -833,7 +833,7 @@ class EnhancedSRLPFramework:
         with open(filename, 'w') as f:
             json.dump(output_data, f, indent=2, default=str)
         
-        print(f"Enhanced results saved to {filename}")
+        print(f"Results saved to {filename}")
     
     def generate_summary_tables(self, output_dir: str = "."):
         """Generate comprehensive summary tables for thesis appendix"""
@@ -908,16 +908,16 @@ class EnhancedSRLPFramework:
         print("- scenario_analysis_summary.csv")
         print("- cost_analysis_summary.json")
     
-    def print_enhanced_summary(self):
+    def print_summary(self):
         """Print comprehensive summary with all new metrics"""
         if not self.results:
             print("No results to display.")
             return
         
-        stats = self._calculate_enhanced_statistics()
+        stats = self._calculate_statistics()
         
         print("\n" + "="*80)
-        print("ENHANCED SELF-REFINEMENT FRAMEWORK v3.0 - COMPREHENSIVE RESULTS")
+        print("SELF-REFINEMENT FRAMEWORK v3.0 - COMPREHENSIVE RESULTS")
         print("="*80)
         
         # Overall Statistics
@@ -991,25 +991,25 @@ class EnhancedSRLPFramework:
 
 async def main():
     """Main execution function"""
-    print("Starting Enhanced SRLP Framework v3.0 with Comprehensive Metrics...")
+    print("Starting SRLP Framework v3.0 with Comprehensive Metrics...")
     
-    framework = EnhancedSRLPFramework()
+    framework = SRLPFramework()
     
     # Run comprehensive test suite
     results = await framework.run_comprehensive_tests()
     
-    # Print enhanced summary
-    framework.print_enhanced_summary()
+    # Print summary
+    framework.print_summary()
     
     # Save comprehensive results
-    framework.save_enhanced_results()
+    framework.save_results()
     
     # Generate summary tables for thesis
     framework.generate_summary_tables()
     
-    print("\n✅ Enhanced SRLP Framework v3.0 execution completed successfully!")
+    print("\n✅ SRLP Framework v3.0 execution completed successfully!")
     print("📁 Generated files:")
-    print("   - enhanced_framework_results_v3.0.json")
+    print("   - framework_results_v3.0.json")
     print("   - provider_performance_summary.csv")
     print("   - scenario_analysis_summary.csv")
     print("   - cost_analysis_summary.json")

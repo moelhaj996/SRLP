@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Interactive Dashboard for Enhanced SRLP Framework v3.0
+Interactive Dashboard for SRLP Framework
 Streamlit-based real-time visualization and analysis
 
 Features:
@@ -10,8 +10,7 @@ Features:
 - Cost vs quality trade-off charts
 - Interactive filtering and exploration
 
-Author: Enhanced SRLP Framework Team
-Date: 2025-01-12
+
 """
 
 import streamlit as st
@@ -27,7 +26,7 @@ from typing import Dict, List, Any
 
 # Page configuration
 st.set_page_config(
-    page_title="Enhanced SRLP Framework v3.0 Dashboard",
+    page_title="SRLP Framework Dashboard",
     page_icon="🚀",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -47,10 +46,6 @@ class SRLPDashboard:
             # Try to load the latest results
             if os.path.exists('framework_results_v3.0.json'):
                 with open('framework_results_v3.0.json', 'r') as f:
-                    self.data = json.load(f)
-                self.prepare_dataframes()
-            elif os.path.exists('enhanced_framework_results_v3.0.json'):
-                with open('enhanced_framework_results_v3.0.json', 'r') as f:
                     self.data = json.load(f)
                 self.prepare_dataframes()
             else:
@@ -496,7 +491,7 @@ class SRLPDashboard:
     def run(self):
         """Main dashboard execution"""
         # Title and description
-        st.title("🚀 Enhanced SRLP Framework v3.0 Dashboard")
+        st.title("🚀 SRLP Framework v3.0 Dashboard")
         st.markdown("""
         **Interactive Analysis Dashboard for Self-Refinement LLM Planners Framework**
         
@@ -548,7 +543,7 @@ class SRLPDashboard:
         # Footer
         st.markdown("---")
         st.markdown(
-            "**Enhanced SRLP Framework v3.0** | "
+            "**SRLP Framework v3.0** | "
             f"Last updated: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}"
         )
 

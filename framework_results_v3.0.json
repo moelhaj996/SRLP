@@ -371,7 +371,7 @@
       "config": {
         "iterations": 2,
         "timeout": 45,
-        "model": "standard"
+        "model": "enhanced"
       },
       "success": true,
       "time_accuracy": 95.98812678372487,
@@ -503,7 +503,7 @@
       "config": {
         "iterations": 2,
         "timeout": 45,
-        "model": "standard"
+        "model": "enhanced"
       },
       "success": true,
       "time_accuracy": 98.3884893825619,
@@ -635,7 +635,7 @@
       "config": {
         "iterations": 2,
         "timeout": 45,
-        "model": "standard"
+        "model": "enhanced"
       },
       "success": true,
       "time_accuracy": 98.21970041438188,
@@ -767,7 +767,7 @@
       "config": {
         "iterations": 2,
         "timeout": 45,
-        "model": "standard"
+        "model": "enhanced"
       },
       "success": true,
       "time_accuracy": 98.0753833354634,
@@ -899,7 +899,7 @@
       "config": {
         "iterations": 2,
         "timeout": 45,
-        "model": "standard"
+        "model": "enhanced"
       },
       "success": true,
       "time_accuracy": 97.41870662075199,
@@ -1031,7 +1031,7 @@
       "config": {
         "iterations": 2,
         "timeout": 45,
-        "model": "standard"
+        "model": "enhanced"
       },
       "success": true,
       "time_accuracy": 98.59409656582729,
@@ -1163,7 +1163,7 @@
       "config": {
         "iterations": 2,
         "timeout": 45,
-        "model": "standard"
+        "model": "enhanced"
       },
       "success": true,
       "time_accuracy": 97.7632319359078,
@@ -1295,7 +1295,7 @@
       "config": {
         "iterations": 2,
         "timeout": 45,
-        "model": "standard"
+        "model": "enhanced"
       },
       "success": true,
       "time_accuracy": 98.75035704107187,
@@ -1427,7 +1427,7 @@
       "config": {
         "iterations": 2,
         "timeout": 45,
-        "model": "standard"
+        "model": "enhanced"
       },
       "success": true,
       "time_accuracy": 96.21783723628636,
@@ -1559,7 +1559,7 @@
       "config": {
         "iterations": 2,
         "timeout": 45,
-        "model": "standard"
+        "model": "enhanced"
       },
       "success": true,
       "time_accuracy": 95.79233158232083,
@@ -1691,7 +1691,7 @@
       "config": {
         "iterations": 2,
         "timeout": 45,
-        "model": "standard"
+        "model": "enhanced"
       },
       "success": true,
       "time_accuracy": 96.16844353764236,
@@ -1823,7 +1823,7 @@
       "config": {
         "iterations": 2,
         "timeout": 45,
-        "model": "standard"
+        "model": "enhanced"
       },
       "success": true,
       "time_accuracy": 96.85124854769114,
@@ -1955,7 +1955,7 @@
       "config": {
         "iterations": 2,
         "timeout": 45,
-        "model": "standard"
+        "model": "enhanced"
       },
       "success": true,
       "time_accuracy": 95.90868122774525,
@@ -2087,7 +2087,7 @@
       "config": {
         "iterations": 2,
         "timeout": 45,
-        "model": "standard"
+        "model": "enhanced"
       },
       "success": true,
       "time_accuracy": 99.96273367506562,
@@ -2219,7 +2219,7 @@
       "config": {
         "iterations": 2,
         "timeout": 45,
-        "model": "standard"
+        "model": "enhanced"
       },
       "success": true,
       "time_accuracy": 98.01005965773959,
@@ -2351,7 +2351,7 @@
       "config": {
         "iterations": 2,
         "timeout": 45,
-        "model": "standard"
+        "model": "enhanced"
       },
       "success": true,
       "time_accuracy": 95.62801410199378,
@@ -2483,7 +2483,7 @@
       "config": {
         "iterations": 2,
         "timeout": 45,
-        "model": "standard"
+        "model": "enhanced"
       },
       "success": true,
       "time_accuracy": 96.05284418443242,
@@ -2615,7 +2615,7 @@
       "config": {
         "iterations": 2,
         "timeout": 45,
-        "model": "standard"
+        "model": "enhanced"
       },
       "success": true,
       "time_accuracy": 98.94819895095945,
@@ -2747,7 +2747,7 @@
       "config": {
         "iterations": 2,
         "timeout": 45,
-        "model": "standard"
+        "model": "enhanced"
       },
       "success": true,
       "time_accuracy": 99.70575183719892,

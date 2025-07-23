@@ -159,5 +159,4 @@ config/secrets.py
 results/
 logs/
 temp/
-*.tmp.env
-dashboard_env/
+*.tmp
